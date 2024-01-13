@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IPP Digital</title>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+    </head>
+    <body class="background">
+        <div class="header">
+            <img id="logo" src="../assets/img/logo/IPPD.png">
+            <span id="title"><h1 id="title-text">IPP <span style="color:#01D3FF;">Digital</span></h1></span>
+        </div>
+        <nav class="nav-row">
+            <ul class="nav-list">
+                <li class="nav-tab"><a class="nav-tab-2" href="lista_categorias.php">Categorías</a></li>
+                <li class="nav-tab"><a class="nav-tab-2" href="lista_productos.php">Productos</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-container">
+            <div class="form-container">
+
+                <div class="container-header">
+                    <div>Ingrese una nueva categoría</div>
+                </div>
+
+                <div class="container-body">
+                    <form id="form-productos" action="../backend/productos.php" method="POST" enctype="multipart/form-data">
+                        
+                        <input type="hidden" value="create" name="action-method">
+                        
+                        <div class="field-container">
+                            <div class="field-label">
+                                <label for="producto-id">ID:</label>
+                            </div>
+                            <div class="field-input">
+                                <!-- Puse 1 como minimo para el id-->
+                                <input id="producto-id" type="number" min="1" class="input" name="identificador">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="field-container">
+                            <div class="field-label">
+                                <label for="producto-name">Nombre producto:</label>
+                            </div>
+                            <div class="field-input">
+                                <input id="producto-name" type="text" class="input" name="nombre">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="field-container">
+                            <div class="field-label">
+                                <label for="producto-image">Imagen:</label>
+                            </div>
+                            <div class="field-input">
+                                <input id="producto-image" type="file" class="input" name="imagen">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="field-container">
+                            <div class="field-label">
+                                <label for="producto-description">Descripción:</label>
+                            </div>
+                            <div class="field-input">
+                                <textarea id="producto-description" type="text" name="descripción"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="field-container">
+                            <div class="field-label">
+                                <label for="producto-price">Precio:</label>
+                            </div>
+                            <div class="field-input">
+                                <!-- Puse 1 como minimo para el precio-->
+                                <input id="producto-price" type="number" min="1" class="input" name="precio">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="field-container">
+                            <div class="field-label">
+                                <label for="producto-category">Categoría:</label>
+                            </div>
+                            <div class="field-input">
+                                <select id="producto-category" class="input" name="categoria">
+                                    <?php foreach($resultado as $row){ ?>
+                                        <option value='<?php echo $row["id_categoria"]; ?>'><?php echo $row["nombre"]; ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="field-container form-button-container">
+                            <a href="lista_productos.php" class="button-form button-cancel">Cancelar</a>
+                            <button class="button-form button-accept" type="submit">Crear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../../assets/js/validaciones.js"></script>
