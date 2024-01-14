@@ -1,0 +1,239 @@
+html{
+	background-color: black;
+	overflow-x: hidden;
+}
+
+header{
+	background: #47413F;
+	width: 100%;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	height: 80px;
+	color: white;
+	font-size: 25px;
+	padding: 15px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+	background: repeating-linear-gradient(-45deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(45deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(75deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(-15deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(105deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(55deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(-75deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(-65deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(150deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+				repeating-linear-gradient(90deg, transparent, transparent 10px, rgba(255,255,255,0.3) 10px, rgba(255,255,255,0.3) 25px),
+				repeating-linear-gradient(10deg, transparent, transparent 10px, rgba(255,255,255,0.3) 10px, rgba(255,255,255,0.3) 25px),
+				repeating-linear-gradient(45deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 75px),
+
+				repeating-linear-gradient(75deg, transparent, transparent 60px, #73B2B8 60px, #73B2B8 100px), #47413F;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+}
+
+#navbar{
+	width: 100%;
+	position: fixed;
+  	top: 100px;
+  	left: 0;
+  	height: 50px;
+  	background-color: #7C716D;
+}
+
+.nav-list{
+	width: 100%;
+	height: 100%;
+}
+
+.nav-item{
+	float: left;
+	width: 33%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:#47413F;
+}
+
+.nav-item:hover{
+	background-color: #9D9492;
+}
+
+#cart{
+	position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#username{
+	color:#7C716D;
+	margin-bottom: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#username:hover{
+	color: #ACA4A1;
+}
+
+#shopping-cart-img{
+	height: 40px;
+	float: right;
+}
+
+#shopping-count{
+	background-color: darkred;
+    width: 30px;
+    height: 30px;
+    color: white;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+#content{
+  	top: 150px;
+  	left: 0;
+	color: white;
+}
+
+#posts-container{
+	width: 60%;
+}
+
+.post{
+	color: #90C3C8;
+	margin: 10px;
+	border: 1px solid #90C3C8;
+	padding: 30px;
+}
+
+#side-container{
+	width: 40%;
+	color: #90C3C8;
+	margin: 10px;
+	border: 1px solid #90C3C8;
+	padding: 30px;
+	height: fit-content;
+}
+
+#sidebar-image{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.page-content{
+	display: flex;
+	color:white;
+	padding: 20px;
+	padding-top: 160px;
+}
+
+#dropdown-account{
+	background-color: transparent;
+	border: none;
+}
+
+#dropdown-box{
+	background-color: white;
+    color: black;
+    position: absolute;
+    width: 100%;
+	z-index: 100000;
+	display: none;
+}
+
+.dropdown-item{
+	padding: 5px;
+	font-size: 10px;
+}
+.dropdown-item:hover{
+	background-color: #7C716D;
+	color: white;
+}
+
+.title-text{
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.subtitle-text{
+	margin-bottom: 10px;
+    font-size: 20px;
+    color: grey;
+}
+
+#product-container{
+	display: flex;
+    flex-wrap: wrap;
+	z-index: -1;
+	position: absolute;
+    margin-top: 180px;
+}
+
+.image{
+	position: relative;
+	width: 240px;
+    height: 300px;
+	overflow: hidden;
+	margin: 0 auto 50px;
+	border: 2px solid white;
+	padding: 30px;	
+}
+
+.image img{
+	display: block;
+	position: absolute;
+	top:0;
+	left: 0;
+	transition: 1s;
+	height: 100%;
+}
+
+.image:hover img{
+	left: 500px;
+}
+
+.image figcaption{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;	
+	height: 100%;
+	display: block;
+	background: #222;
+	color: rgba(255,255,255,.8);
+	font: 2em/1 "gill sans", sans-serif;
+	z-index: -1;
+	padding: 15px;
+}
+
+.plant-name{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plant-description{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.plant-price{
+
+}
+
+.add-plant{
+	width: calc(100% - 35px);
+}
