@@ -1,22 +1,33 @@
 document.getElementById("home-tab").addEventListener("click", function(){
-	document.getElementById("home").style.display = "flex"
-	document.getElementById("products").style.display = "none"
-	document.getElementById("contact").style.display = "none"
-	console.log("home")
+	document.getElementById("home").style.display = "flex";
+	document.getElementById("products").style.display = "none";
+	document.getElementById("contact").style.display = "none";
+  document.getElementById("cart-tab").style.display = "none";
+	console.log("home1");
 });
 
 document.getElementById("products-tab").addEventListener("click", function(){
-	document.getElementById("products").style.display = "block"
-	document.getElementById("home").style.display = "none"
-	document.getElementById("contact").style.display = "none"
-	console.log("products")
+	document.getElementById("products").style.display = "block";
+	document.getElementById("home").style.display = "none";
+	document.getElementById("contact").style.display = "none";
+  document.getElementById("cart-tab").style.display = "none";
+	console.log("products1");
 });
 
 document.getElementById("contact-tab").addEventListener("click", function(){
-	document.getElementById("contact").style.display = "flex"
-	document.getElementById("home").style.display = "none"
-	document.getElementById("products").style.display = "none"
-	console.log("contact")
+	document.getElementById("contact").style.display = "flex";
+	document.getElementById("home").style.display = "none";
+	document.getElementById("products").style.display = "none";
+  document.getElementById("cart-tab").style.display = "none";
+	console.log("contact1");
+});
+
+document.getElementById("open-cart").addEventListener("click", function(){
+	document.getElementById("contact").style.display = "none";
+	document.getElementById("home").style.display = "none";
+	document.getElementById("products").style.display = "none";
+  document.getElementById("cart-tab").style.display = "felx";
+	console.log("cart1");
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -30,16 +41,4 @@ document.addEventListener("DOMContentLoaded", function() {
     dropdownArea.addEventListener("mouseleave", function() {
       dropdownBox.style.display = "none";
     });
-
-    // var images = document.getElementsByClassName("img");
-    // for (var image of images){
-    //     image.addEventListener("mouseover", function() {
-    //         console.log("paso por encima");
-    //     })
-    // }
-    
 });
-
-function selectedProduct(image){
-    console.log(image);
-}
