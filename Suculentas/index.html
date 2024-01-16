@@ -31,7 +31,7 @@
 
 <nav id="navbar">
 	<div class="row nav-list">
-		<div class="nav-item" id="home-tab">Home</div>
+		<div class="nav-item nav-item-selected" id="home-tab">Home</div>
 		<div class="nav-item" id="products-tab">Products</div>
 		<div class="nav-item" id="contact-tab">Contact</div>
 	</div>
@@ -87,7 +87,7 @@
 					<img class="img" src="Images/Products/aloe vera2.PNG" onclick="selectedProduct(this);">
 					<figcaption>
 						<div class="plant-name">Aloe Vera</div>
-						<div class="plant-description">Es una planta la verdad no tengo mucho más que decir, este es un texto de prueba.</div>
+						<div class="plant-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit bibendum tempus.</div>
 						<div class="plant-price">$20.000</div>
 					</figcaption>
 				</figure>
@@ -203,17 +203,62 @@
 			</form>
 		</div>
 	</div>
-	<div id="cart-tab" class="page-content" style="display:none;">
-		Hola carrito!
-	</div>
 
+	<div id="cart-tab" class="page-content" style="display:none;">
+		<div id="cart-container">
+			<br>
+			<center><div id="cart-container-title">Shopping Cart</div></center>
+			<div id="products-list">
+				<div class="product-listed">
+					<div class="img-product-listed-container">
+						<img class="img-product-listed" src="Images/Products/chocolate soldier plant.PNG">
+					</div>
+					<div class="content-product-listed">
+						<div class="title-product-listed">Chocolate Soldier Plant</div>
+						<div class="amount-container">
+							<div class="amount-selector-text">Amount</div>
+							<input type="number" value="1">
+						</div>
+						<div class="bottom-product-content">
+							<div class="price-listed-product">$45.000</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-listed">
+					<div class="img-product-listed-container">
+						<img class="img-product-listed" src="Images/Products/aloe vera2.PNG">
+					</div>
+					<div class="content-product-listed">
+						<div class="title-product-listed">Aloe Vera</div>
+						<div class="amount-container">
+							<div class="amount-selector-text">Amount</div>
+							<input type="number" value="1">
+						</div>
+						<div class="bottom-product-content">
+							<div class="price-listed-product">$20.000</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<hr>
+			<div id="summary-container">
+				<div id="summary-value-container">
+					<span id="summary-text"">Total Amount: </span><span id="summary-amount">$65.000</span>
+				</div>
+				<div>
+					<button id="summary-button">Continue Purchase</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 </body>
 
-<footer>
-	Made by AndieWorksHere
-</footer>
+<!--<footer>
+	<div id="credits" style="display: none;">Made by Andie</div>
+</footer>-->
 
 </html>
 
