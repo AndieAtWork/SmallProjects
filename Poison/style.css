@@ -1,0 +1,276 @@
+body{
+    background-color: white;
+    overflow: hidden;
+}
+
+#window-right{
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    width: 99%;
+    height: 100%;
+}
+
+#window-down{
+    top: 500px;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.frame{
+    height: 500px;
+    width: 800px;
+}
+
+@keyframes slideOut {
+    0% {
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0; /* CAMBIAR A 0 */
+    }
+}
+
+@keyframes lyricsOpenerColorChange {
+    0% {
+        background-color: #931725;
+    }
+    100% {
+        background-color: #FA2382;
+    }
+}
+
+@keyframes heartGrowth {
+    0% {
+        width: 100px;
+        height: 100px;
+        opacity: 1;
+    }
+    100% {
+        width: 1500px;
+        height: 1500px;
+        opacity: 0;
+    }
+}
+
+/* **************FRAMES*************** */
+
+#frame1{
+    background-image: linear-gradient(180deg,#FD1C77,#C751B8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame1 .skull{
+    height: 120px;
+    width: 90px;
+    animation: 1s slideOut linear forwards;
+    opacity: 0;
+}
+
+#frame2{
+    background-image: linear-gradient(180deg,#6D1C61,#1E186F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame2 .skull{
+    height: 120px;
+    width: 90px;
+    animation: 1s slideOut linear forwards;
+    opacity: 0;
+    margin: 50px;
+}
+
+#frame3{
+    background-image: linear-gradient(180deg,#411C54,#3C1E5C);
+    position: absolute;
+    overflow: hidden;
+}
+
+#frame3 .skull{
+    height: 120px;
+    width: 90px;
+    animation: 1s slideOut linear forwards;
+    opacity: 0;
+    overflow: hidden;
+}
+
+#frame3 .skull-row{
+    margin: 50px;
+}
+
+#frame4{
+    background-image: linear-gradient(180deg,#FE1B6F,#C755B5);
+    position: absolute;
+    overflow: hidden;
+}
+
+#frame4 .skull{
+    height: 90px;
+    width: 60px;
+    animation: 1s slideOut linear forwards;
+    opacity: 0;
+    overflow: hidden;
+}
+
+#frame4 .skull-row{
+    margin-bottom: 30px;
+}
+
+#frame5{
+    background-image: linear-gradient(180deg,#2A184C,#1F1237);
+    position: absolute;
+    overflow: hidden;
+}
+
+#frame5 .skull{
+    height: 120px;
+    width: 90px;
+    animation: 1s slideOut linear forwards;
+    opacity: 0;
+    overflow: hidden;
+}
+
+#frame5 .skull-row{
+    margin: 50px;
+}
+
+#frame6{
+    background-color: #931725;
+    position: absolute;
+    overflow: hidden;
+    animation: 2s lyricsOpenerColorChange linear forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame6 .skull{
+    height: 500px;
+    animation: 1s slideOut linear forwards;
+}
+
+#frame6-text{
+    font-family: auto;
+    font-size: 60px;
+}
+
+#frame7{
+    background-image: linear-gradient(180deg,#A2182A,#390A0F);
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame7-LOVE{
+    color: #F98C8E;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: -50px
+}
+
+#frame7-text{
+    font-family: auto;
+    font-size: 60px;
+}
+
+#frame8{
+    background-image: linear-gradient(180deg,#A2182A,#390A0F);
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame8-text{
+    color: #F98C8E;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 120px;
+}
+
+#frame9{
+    background-image: linear-gradient(90deg,#0C0615,#21133B);
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame9-text{
+    color: #BC1D2F;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 120px;
+}
+
+#frame10{
+    background-color: #FE5796;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame10-text{
+    color:  black;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 120px;
+    height: 100%;
+}
+
+#frame10AddOn{
+    position: absolute !important;
+    z-index: 10000;
+}
+
+#frame10Hearts{
+    position: absolute !important;
+    z-index: 9999;
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.heart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#frame10Hearts .hearts{
+    height: 100px;
+    width: 100px;
+    z-index: inherit;
+}
+
+#heart1{
+    animation: 4s heartGrowth linear forwards;
+}
+#heart2{
+    animation: 4s heartGrowth linear forwards;
+}
+#heart3{
+    animation: 4s heartGrowth linear forwards;
+}
+#heart4{
+    animation: 4s heartGrowth linear forwards;
+}
