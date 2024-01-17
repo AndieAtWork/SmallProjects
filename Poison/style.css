@@ -55,7 +55,34 @@ body{
     100% {
         width: 1500px;
         height: 1500px;
-        opacity: 0;
+        opacity: 0.2;
+    }
+}
+
+@keyframes textGrowth {
+    0% {
+        font-size: 100px;
+    }
+    100% {
+        font-size: 120px;
+    }
+}
+
+@keyframes textSlideOut {
+    0% {
+        padding-right: 0px;
+    }
+    100% {
+        padding-right: 130px;
+    }
+}
+
+@keyframes textSlideIn {
+    0% {
+        margin-left: 130px;
+    }
+    100% {
+        margin-left: 0px;
     }
 }
 
@@ -235,42 +262,90 @@ body{
     height: 100%;
 }
 
-#frame10AddOn{
+#frame10-over-frame{
     position: absolute !important;
     z-index: 10000;
 }
 
-#frame10Hearts{
+.frame10-heart{
     position: absolute !important;
-    z-index: 9999;
     margin: auto;
     height: 500px;
     width: 800px;
     overflow: hidden;
-}
-
-.heart-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
 }
 
-#frame10Hearts .hearts{
+.frame10-heart .heart{
     height: 100px;
     width: 100px;
     z-index: inherit;
+    animation: 3s heartGrowth linear forwards;
 }
 
-#heart1{
-    animation: 4s heartGrowth linear forwards;
+#frame11{
+    background-image: linear-gradient(-90deg,#BE1C31,#B903B0);
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#heart2{
-    animation: 4s heartGrowth linear forwards;
+
+#frame11-text{
+    color:  white;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 100px;
+    animation: 0.3s textGrowth linear forwards;
 }
-#heart3{
-    animation: 4s heartGrowth linear forwards;
+
+#frame11-text2{
+    color:  white;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 120px;
+    animation: 0.25s textSlideOut linear forwards;
 }
-#heart4{
-    animation: 4s heartGrowth linear forwards;
+
+#frame12{
+    background-image: linear-gradient(180deg,#F34B7B,white);
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame12-over-frame{
+    position: absolute !important;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 0.25s textSlideIn linear forwards;
+}
+
+#frame12-text{
+    color:  #E3415F;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 120px;
+}
+
+#frame12-hearts{
+    z-index: 1000;
+    display: block;
+    position: absolute;
+}
+
+#frame12-hearts .heart1{
+    width: 160px;
+}
+
+#frame12-hearts .heart2{
+    width: 100px;
+    margin-top: 40px;
 }

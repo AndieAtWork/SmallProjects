@@ -53,36 +53,59 @@ setTimeout(function() {
     document.getElementById("frame7").remove();
     document.getElementById("frame8").remove();
     document.getElementById("frame9").remove();
+
     document.getElementById("frame10").style.display = "flex";
-    document.getElementById("frame10AddOn").style.display = "block";
-    document.getElementById("frame10Hearts").style.display = "block";
+    document.getElementById("frame10-over-frame").style.display = "block";
+    document.getElementById("heart1").style.display = "block";
 }, 2000);
 
 setTimeout(function() {
-    console.log("heart")
-    var html =  '<div class="col-lg-12 heart-container" style="height: 100%;">'+
-                    '<img id="heart1" class="hearts" src="imgs/heart1.png">' +
-                '</div>';
-    document.getElementById("frame10Hearts").innerHTML = document.getElementById("frame10Hearts").innerHTML + html;
-}, 3000);
+    document.getElementById("heart2").style.display = "block";
+}, 2500);
+
 setTimeout(function() {
-    console.log("heart")
-    var html =  '<div class="col-lg-12 heart-container" style="height: 100%;">'+
-                    '<img id="heart2" class="hearts" src="imgs/heart2.png">' +
-                '</div>';
-                document.getElementById("frame10Hearts").innerHTML = document.getElementById("frame10Hearts").innerHTML + html;
+    document.getElementById("heart3").style.display = "block";
+}, 3000);
+
+setTimeout(function() {
+    document.getElementById("heart4").style.display = "block";
+    document.getElementById("frame10-over-frame").remove();
+}, 3500);
+setTimeout(function() {
+    document.getElementById("heart5").style.display = "block";
 }, 4000);
 setTimeout(function() {
-    console.log("heart")
-    var html =  '<div class="col-lg-12 heart-container" style="height: 100%;">'+
-                    '<img id="heart3" class="hearts" src="imgs/heart1.png">' +
-                '</div>';
-                document.getElementById("frame10Hearts").innerHTML = document.getElementById("frame10Hearts").innerHTML + html;
-}, 5000);
+    document.getElementById("heart6").style.display = "block";
+}, 4500);
+
 setTimeout(function() {
-    console.log("heart")
-    var html =  '<div class="col-lg-12 heart-container" style="height: 100%;">'+
-                    '<img id="heart4" class="hearts" src="imgs/heart2.png">' +
-                '</div>';
-                document.getElementById("frame10Hearts").innerHTML = document.getElementById("frame10Hearts").innerHTML + html;
+    var hearts = document.getElementsByClassName("frame10-heart")
+    var heartsArray = Array.from(hearts);
+    heartsArray.forEach(function(element) {
+      element.remove();
+    });
+    document.getElementById("frame10").remove();
+
+    document.getElementById("frame11").style.display = "flex";
+}, 5000);
+
+setTimeout(function() {
+    document.getElementById("frame11-text").remove();
+    document.getElementById("frame11-text2").style.display = "block";
 }, 6000);
+
+setTimeout(function() {
+    document.getElementById("frame11").remove();
+    document.getElementById("frame12").style.display = "flex";
+    document.getElementById("frame12-over-frame").style.display = "flex";
+    document.getElementById("frame12-hearts").style.display = "block";
+}, 6250);
+
+setTimeout(function() {
+    document.getElementById("frame12-hearts").remove();
+    document.getElementById("frame12").remove();
+    document.getElementById("frame12-over-frame").remove();
+}, 7250);
+
+
+
