@@ -1,82 +1,85 @@
-// setTimeout(function() {
-//     document.getElementById("frame1").remove();
-//     document.getElementById("frame2").style.display = "flex";
-// }, 2000);
-
-// setTimeout(function() {
-//     document.getElementById("frame2").remove();
-//     document.getElementById("frame3").style.display = "block";
-// }, 4000);
-
-// setTimeout(function() {
-//     document.getElementById("frame3").remove();
-//     document.getElementById("frame4").style.display = "block";
-// }, 6000);
-
-// setTimeout(function() {
-//     document.getElementById("frame4").remove();
-//     document.getElementById("frame5").style.display = "block";
-// }, 8000);
-
-// setTimeout(function() {
-//     document.getElementById("frame5").remove();
-//     document.getElementById("frame6").style.display = "flex";
-// }, 10000);
-
-// setTimeout(function() {
-//     document.getElementById("frame6-skull").remove();
-//     document.getElementById("frame6-text").style.display = "block";
-// }, 11000);
-
-// setTimeout(function() {
-//     document.getElementById("frame6").remove();
-//     document.getElementById("frame7").style.display = "flex";
-// }, 12000);
-
-// setTimeout(function() {
-//     document.getElementById("frame7").remove();
-//     document.getElementById("frame8").style.display = "flex";
-// }, 14000);
-
-// setTimeout(function() {
-//     document.getElementById("frame8").remove();
-//     document.getElementById("frame9").style.display = "flex";
-// }, 16000);
+/* setTimeout(function() {
+    document.getElementById("frame1").remove();
+    document.getElementById("frame2").style.display = "flex";
+}, 1450);
 
 setTimeout(function() {
-    document.getElementById("frame1").remove();
     document.getElementById("frame2").remove();
-    document.getElementById("frame3").remove();
-    document.getElementById("frame4").remove();
-    document.getElementById("frame5").remove();
-    document.getElementById("frame6").remove();
-    document.getElementById("frame7").remove();
-    document.getElementById("frame8").remove();
-    document.getElementById("frame9").remove();
+    document.getElementById("frame3").style.display = "block";
+}, 2900);
 
+setTimeout(function() {
+    document.getElementById("frame3").remove();
+    document.getElementById("frame4").style.display = "block";
+}, 4350);
+
+setTimeout(function() {
+    document.getElementById("frame4").remove();
+    document.getElementById("frame5").style.display = "block";
+}, 5800);
+
+setTimeout(function() {
+    document.getElementById("frame5").remove();
+    document.getElementById("frame6").style.display = "flex";
+}, 7250);
+
+setTimeout(function() {
+    document.getElementById("frame6-skull").remove();
+    document.getElementById("frame6-text").style.display = "block";
+}, 7500);
+
+setTimeout(function() {
+    document.getElementById("frame6-2").style.visibility = "visible";
+}, 7600);
+
+setTimeout(function() {
+    document.getElementById("frame6-3").style.visibility = "visible";
+}, 7700);
+
+setTimeout(function() {
+    document.getElementById("frame6-4").style.visibility = "visible";
+}, 7800);
+
+setTimeout(function() {
+    document.getElementById("frame6").remove();
+    document.getElementById("frame7").style.display = "flex";
+}, 8000);
+
+setTimeout(function() {
+    document.getElementById("frame7").remove();
+    document.getElementById("frame8").style.display = "flex";
+}, 8400);
+
+setTimeout(function() {
+    document.getElementById("frame8").remove();
+    document.getElementById("frame9").style.display = "flex";
+}, 8800);
+
+setTimeout(function() {
+    document.getElementById("frame9").remove();
     document.getElementById("frame10").style.display = "flex";
     document.getElementById("frame10-over-frame").style.display = "block";
     document.getElementById("heart1").style.display = "block";
-}, 2000);
+}, 8900);
 
 setTimeout(function() {
     document.getElementById("heart2").style.display = "block";
-}, 2500);
+}, 9166);
 
 setTimeout(function() {
     document.getElementById("heart3").style.display = "block";
-}, 3000);
+}, 9400);
 
 setTimeout(function() {
     document.getElementById("heart4").style.display = "block";
-    document.getElementById("frame10-over-frame").remove();
-}, 3500);
+}, 9600);
 setTimeout(function() {
     document.getElementById("heart5").style.display = "block";
-}, 4000);
+    document.getElementById("frame10-over-frame").remove();
+}, 9800);
 setTimeout(function() {
     document.getElementById("heart6").style.display = "block";
-}, 4500);
+}, 10000);
 
 setTimeout(function() {
     var hearts = document.getElementsByClassName("frame10-heart")
@@ -87,25 +90,119 @@ setTimeout(function() {
     document.getElementById("frame10").remove();
 
     document.getElementById("frame11").style.display = "flex";
-}, 5000);
+}, 10400);
 
 setTimeout(function() {
     document.getElementById("frame11-text").remove();
     document.getElementById("frame11-text2").style.display = "block";
-}, 6000);
+}, 10650);
 
 setTimeout(function() {
     document.getElementById("frame11").remove();
     document.getElementById("frame12").style.display = "flex";
     document.getElementById("frame12-over-frame").style.display = "flex";
     document.getElementById("frame12-hearts").style.display = "block";
-}, 6250);
+}, 10900);
 
 setTimeout(function() {
     document.getElementById("frame12-hearts").remove();
     document.getElementById("frame12").remove();
     document.getElementById("frame12-over-frame").remove();
-}, 7250);
+
+    document.getElementById("frame13").style.display = "flex";
+    document.getElementById("frame13-over-frame").style.display = "flex";
+}, 11500);
 
 
+setTimeout(function() {
+    document.getElementById("frame13-over-frame").remove();
+    document.getElementById("frame13-over-frame2").style.display = "flex";
+}, 11750);
+
+setTimeout(function() {
+    document.getElementById("frame13").remove();
+    document.getElementById("frame13-over-frame2").remove();
+    document.getElementById("frame14").style.display = "flex";
+}, 12000);
+
+setTimeout(function() {
+    document.getElementById("frame14-text2").style.visibility = "visible";
+}, 12400);
+
+setTimeout(function() {
+    document.getElementById("frame14-text3").style.visibility = "visible";
+}, 13500);
+
+setTimeout(function() {
+    document.getElementById("frame14").remove();
+    document.getElementById("frame15").style.display = "block";
+}, 14300);
+
+setTimeout(function() {
+    document.getElementById("frame15-B").style.visibility = "visible";
+}, 14500);
+
+setTimeout(function() {
+    document.getElementById("frame15-C").style.visibility = "visible";
+}, 14750);
+
+setTimeout(function() {
+    document.getElementById("frame15-D").style.visibility = "visible";
+}, 15000);
+
+setTimeout(function() {
+    document.getElementById("frame15").remove();
+    document.getElementById("frame16").style.display = "block";
+    document.getElementById("frame16-lineA").style.display = "block";
+    document.getElementById("frame16-lineB").style.display = "block";
+    document.getElementById("frame16-lineC").style.display = "block";
+    document.getElementById("frame16-over-frame").style.display = "block";
+}, 15800);
+
+setTimeout(function() {
+    document.getElementById("frame16-text1B").style.visibility = "visible";
+}, 16300);
+
+setTimeout(function() {
+    document.getElementById("frame16-text2").style.visibility = "visible";
+}, 16600);
+
+setTimeout(function() {
+    document.getElementById("frame16").remove();
+    document.getElementById("frame17").style.display = "block";
+    document.getElementById("yeah1").style.display = "block";
+}, 17000);
+
+setTimeout(function() {
+    document.getElementById("yeah1").remove();
+    document.getElementById("yeah2").style.display = "block";
+}, 17500);
+
+setTimeout(function() {
+    document.getElementById("yeah2").remove();
+    document.getElementById("yeah3").style.display = "block";
+    document.getElementById("frame17").style.backgroundImage = 'linear-gradient(180deg, #FD2FCC, #BF8BBE)';
+}, 18000);
+
+setTimeout(function() {
+    document.getElementById("yeah3").remove();
+    document.getElementById("frame17").remove();
+    document.getElementById("frame16-over-frame").remove();
+    document.getElementById("frame18").style.display = "block";
+    document.getElementById("yeah4").style.display = "block";
+}, 19600); */
+
+
+
+setTimeout(function() {
+    document.getElementById("frame18").remove();
+    document.getElementById("frame19").style.display = "block";
+}, 0); 
+
+setTimeout(function() {
+    document.getElementById("frame19").remove();
+    document.getElementById("frame20").remove();
+    document.getElementById("frame21").remove();
+    document.getElementById("frame22").style.display = "flex";
+}, 1000); 
 
