@@ -179,6 +179,50 @@ body{
     }
 }
 
+@keyframes shouldhave {
+    0% {
+        font-size: 140px;
+    }
+    100% {
+        font-size: 65px;
+    }
+}
+
+@keyframes frame23A{
+    0% {
+        margin-left: 250px;
+    }
+    100% {
+        margin-left: 120px;
+    }
+}
+
+@keyframes frame23B{
+    0% {
+        margin-left: 290px;
+    }
+    100% {
+        margin-left: 160px;
+    }
+}
+
+@keyframes frame23C{
+    0% {
+        margin-left: 555px;
+    }
+    100% {
+        margin-left: 425px;
+    }
+}
+
+@keyframes frame23D{
+    0% {
+        margin-left: 770px;
+    }
+    100% {
+        margin-left: 640px;
+    }
+}
 
 /* **************FRAMES*************** */
 
@@ -637,6 +681,42 @@ body{
     animation: 0.5s textGrowth2 linear forwards;
 }
 
+#frame19{
+    background-image: linear-gradient(180deg, #FD2FCC, #BF8BBE);
+    font-size: 20px;
+    font-family: auto;
+    font-weight: bold;
+    color: white;
+}
+
+#frame19-text{
+    animation: 0.4s shouldhave linear forwards;
+}
+
+#frame20{
+    background-image: linear-gradient(60deg, #0C0615, #291749);
+    font-size: 65px;
+    font-family: auto;
+    font-weight: bold;
+    color: white;
+}
+
+#frame20A{
+    background-color: black;
+    font-size: 65px;
+    font-family: auto;
+    font-weight: bold;
+    color: #C10205;
+}
+
+#frame21{
+    font-size: 65px;
+    font-family: auto;
+    font-weight: bold;
+    color: #C10205;
+    background-image: linear-gradient(180deg, #4B0002, #190100);
+}
+
 #frame22{
     background-image: linear-gradient(180deg, #4B0002, #190100);
 }
@@ -669,4 +749,81 @@ body{
 
 #happen-container{
     margin-left: 60px;
+}
+
+#frame23{
+    background-color: #270000;
+}
+
+.frame23-text{
+    font-family: auto;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+}
+
+#frame23-text0{
+    color: white;
+    margin-left: 120px;
+    animation: 0.5s frame23A linear forwards;
+}
+
+#frame23-text1{
+    color: white;
+    margin-left: 160px;
+    animation: 0.5s frame23B linear forwards;
+}
+
+#frame23-text2{
+    color: #B31E2C;
+    margin-left: 425px;
+    animation: 0.5s frame23C linear forwards;
+}
+
+#frame23-text3{
+    color: #B31E2C;
+    margin-left: 640px;
+    animation: 0.5s frame23D linear forwards;
+}
+
+.frame23-textA{
+    margin-top: 200px;
+}
+
+#frame23-hearts1, #frame23-hearts2{
+    position: absolute;
+    top: 0;
+}
+
+.heart23A{
+    width: 300px;
+    height: 400px;
+}
+
+.heart23B{
+    width: 200px;
+    height: 300px;
+}
+
+#frame24{
+    background-color: #ED1627;
+    color: #2C174A;
+}
+
+#frame24-text{
+    font-family: auto;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#frame25{
+    background-color: #2C174A;
+    color: #ED1627;
+}
+
+#frame25-text{
+    font-family: auto;
+    font-weight: bold;
+    font-size: 80px;
 }
