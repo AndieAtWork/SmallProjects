@@ -35,3 +35,7 @@ Done as a challenge since there is no bootstrap (or similar frameworks) used, ju
 
 ![](https://andieatwork.files.wordpress.com/2024/01/gif5.gif)  
 5. When you click on your name, a small dropdown appears
+
+
+# Random Examples
+![](https://andieatwork.files.wordpress.com/2024/01/picture.png)  
