@@ -1,4 +1,4 @@
-/* setTimeout(function() {
+setTimeout(function() {
     document.getElementById("frame1").remove();
     document.getElementById("frame2").style.display = "flex";
 }, 1450);
@@ -53,14 +53,14 @@ setTimeout(function() {
 setTimeout(function() {
     document.getElementById("frame8").remove();
     document.getElementById("frame9").style.display = "flex";
-}, 8800);
+}, 8600);
 
 setTimeout(function() {
     document.getElementById("frame9").remove();
     document.getElementById("frame10").style.display = "flex";
     document.getElementById("frame10-over-frame").style.display = "block";
     document.getElementById("heart1").style.display = "block";
-}, 9000);
+}, 8900);
 
 setTimeout(function() {
     document.getElementById("heart2").style.display = "block";
@@ -226,62 +226,125 @@ setTimeout(function() {
 setTimeout(function() {
     document.getElementById("frame21").remove();
     document.getElementById("frame22").style.display = "flex";
-}, 21350);  */
+}, 21350); 
 
 setTimeout(function() {
-    //document.getElementById("frame22").remove();
+    document.getElementById("frame22").remove();
     document.getElementById("frame23").style.display = "flex";
     document.getElementById("frame23-text0A").style.display = "block";
-}, 0);
+}, 23000);
 
 setTimeout(function() {
     document.getElementById("frame23-text1A").style.display = "block";
-}, 250);
+}, 23200);
 
 setTimeout(function() {
     document.getElementById("frame23-text2A").style.display = "block";
-}, 500);
+}, 23400);
 
 setTimeout(function() {
     document.getElementById("frame23-text3A").style.display = "block";
-}, 750);
+}, 23600);
 
 setTimeout(function() {
     document.getElementById("frame23").remove();
     document.getElementById("frame23-over").remove();
     document.getElementById("frame24").style.display = "flex";
     document.getElementById("frame24-text").innerHTML = "WHEN"
-}, 1000);
+}, 23800);
 
 setTimeout(function() {
     document.getElementById("frame24-text").innerHTML = "I"
     document.getElementById("frame24-text").style.fontSize = "75px";
-}, 1500);
+}, 24000);
 
 setTimeout(function() {
     document.getElementById("frame24-text").innerHTML = "LOOKED"
     document.getElementById("frame24-text").style.fontSize = "90px";
-}, 2000);
+}, 24300);
 
 setTimeout(function() {
     document.getElementById("frame24-text").innerHTML = "IN"
     document.getElementById("frame24-text").style.fontSize = "115px";
-}, 2500);
+}, 24600);
 
 setTimeout(function() {
     document.getElementById("frame24-text").innerHTML = "YOUR"
     document.getElementById("frame24-text").style.fontSize = "140px";
-}, 3000);
+}, 24800);
 
 setTimeout(function() {
     document.getElementById("frame24").remove();
     document.getElementById("frame25").style.display = "flex";
-}, 3500);
+}, 25000);
 
 setTimeout(function() {
     document.getElementById("frame25-text").innerHTML = "HOT";
-}, 4500);
+}, 25500);
 
 setTimeout(function() {
     document.getElementById("frame25-text").innerHTML = "EYES";
-}, 5000);
+}, 26000);
+
+
+
+
+
+
+
+
+setTimeout(function() {
+    document.getElementById("frame25").remove();
+    document.getElementById("frame26").style.display = "flex";
+    document.getElementById("frame26-over").style.display = "block";
+    document.getElementById("frame26-text0").style.display = "block";
+}, 26800);
+
+setTimeout(function() {
+    document.getElementById("frame26-text1").style.display = "block";
+}, 27000);
+
+setTimeout(function() {
+    document.getElementById("frame261B").style.visibility = "visible";
+}, 27200);
+
+setTimeout(function() {
+    document.getElementById("frame26").remove();
+    document.getElementById("frame26-over").remove();
+    document.getElementById("frame27").style.display = "block";
+}, 28000);
+
+setTimeout(function() {
+    document.getElementById("frame27").remove();
+    document.getElementById("frame28").style.display = "block";
+}, 28750);
+
+setTimeout(function() {
+    document.getElementById("frame28").remove();
+    document.getElementById("frame29").style.display = "block";
+}, 29350);
+
+setTimeout(function() {
+    document.getElementById("frame29").remove();
+    document.getElementById("frame30").style.display = "block";
+}, 30500);
+
+setTimeout(function() {
+    document.getElementById("frame30-text").style.fontSize = "100px";
+    document.getElementById("frame30-text").style.color = "#F98C8E";
+}, 30800);
+
+setTimeout(function() {
+    document.getElementById("frame30-text").style.fontSize = "150px";
+}, 31000);  
+
+
+setTimeout(function() {
+    document.getElementById("frame30-text").style.fontSize = "200px";
+    document.getElementById("frame30").style.backgroundImage = 'linear-gradient(180deg, #0E0817, #180D29)';
+}, 31200);  
+
+// setTimeout(function() {
+//     document.getElementById("frame26").remove();
+//     document.getElementById("frame26-over").remove();
+// }, 6000);

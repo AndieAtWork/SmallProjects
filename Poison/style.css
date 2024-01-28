@@ -224,6 +224,24 @@ body{
     }
 }
 
+@keyframes frame26spewin{
+    0% {
+        margin-right: 600px;
+    }
+    100% {
+        margin-right: 300px;
+    }
+}
+
+@keyframes frame26lies{
+    0% {
+        margin-left: 400px;
+    }
+    100% {
+        margin-left: 100px;
+    }
+}
+
 /* **************FRAMES*************** */
 
 #frame1{
@@ -766,25 +784,25 @@ body{
 #frame23-text0{
     color: white;
     margin-left: 120px;
-    animation: 0.5s frame23A linear forwards;
+    animation: 0.2s frame23A linear forwards;
 }
 
 #frame23-text1{
     color: white;
     margin-left: 160px;
-    animation: 0.5s frame23B linear forwards;
+    animation: 0.2s frame23B linear forwards;
 }
 
 #frame23-text2{
     color: #B31E2C;
     margin-left: 425px;
-    animation: 0.5s frame23C linear forwards;
+    animation: 0.2s frame23C linear forwards;
 }
 
 #frame23-text3{
     color: #B31E2C;
     margin-left: 640px;
-    animation: 0.5s frame23D linear forwards;
+    animation: 0.2s frame23D linear forwards;
 }
 
 .frame23-textA{
@@ -826,4 +844,68 @@ body{
     font-family: auto;
     font-weight: bold;
     font-size: 80px;
+}
+
+#frame26{
+    background-image: linear-gradient(180deg, #F48598, #9C457F);
+}
+
+.frame26-text{
+    font-family: auto;
+    font-weight: bold;
+    font-size: 100px;
+    color: #F9EDDE;
+}
+
+#frame26-over{
+    position: absolute;
+    top: 0;
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+}
+
+#frame26-text0{
+    margin-right: 300px;
+    animation: 1s frame26spewin linear forwards;
+}
+
+#frame26-text1{
+    margin-left: 100px;
+    animation: 1s frame26lies linear forwards;
+}
+
+#frame27{
+    background-color: #630103;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 100px;
+    color: #A91011;
+}
+
+#frame28{
+    background-image: linear-gradient(90deg, #9E184B, #FE1C37);
+    font-family: auto;
+    font-weight: bold;
+    font-size: 150px;
+    color: #37080E;
+}
+
+#frame29{
+    background-image: linear-gradient(90deg, #FC263A, #FC757E);
+    font-family: auto;
+    font-weight: bold;
+    font-size: 200px;
+    color: #2A184A;
+}
+
+#frame30{
+    background-image: linear-gradient(180deg, #6A1C5B, #19156A);
+}
+
+#frame30-text{
+    color: white;
+    font-size: 100px;
+    font-family: auto;
+    font-weight: bold;
 }
