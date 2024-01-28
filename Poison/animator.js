@@ -286,13 +286,6 @@ setTimeout(function() {
     document.getElementById("frame25-text").innerHTML = "EYES";
 }, 26000);
 
-
-
-
-
-
-
-
 setTimeout(function() {
     document.getElementById("frame25").remove();
     document.getElementById("frame26").style.display = "flex";
