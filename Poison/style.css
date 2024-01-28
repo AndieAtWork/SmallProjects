@@ -3,6 +3,16 @@ body{
     overflow: hidden;
 }
 
+div{
+    font-family: auto;
+    font-weight: bold;
+}
+
+spam{
+    font-family: auto;
+    font-weight: bold;
+}
+
 #window-right{
     background-color: black;
     position: absolute;
@@ -242,6 +252,78 @@ body{
     }
 }
 
+@keyframes whats-the-worst-part1{
+    0% {
+        right: 320px;
+    }
+    100% {
+        right: 400px;
+    }
+}
+
+@keyframes whats-the-worst-part2{
+    0% {
+        right: 120px;
+    }
+    100% {
+        right: 200px;
+    }
+}
+
+@keyframes whats-the-worst-part3{
+    0% {
+        right: 460px;
+    }
+    100% {
+        right: 520px;
+    }
+}
+
+@keyframes whats-the-worst-part4{
+    0% {
+        right: 100px;
+    }
+    100% {
+        right: 180px;
+    }
+}
+
+@keyframes of-this{
+    0% {
+        font-size: 110px;
+    }
+    100% {
+        font-size: 80px;
+    }
+}
+
+@keyframes slide-in-skulls{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hell-out{
+    0% {
+        margin-right: -310;
+    }
+    100% {
+        margin-right: 200px;
+    }
+}
+
+@keyframes i-can-only{
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: 250px;
+    }
+}
+
 /* **************FRAMES*************** */
 
 #frame1{
@@ -343,7 +425,6 @@ body{
 }
 
 #frame6-text{
-    font-family: auto;
     font-size: 60px;
 }
 
@@ -358,14 +439,11 @@ body{
 
 #frame7-LOVE{
     color: #F98C8E;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
     margin-top: -50px
 }
 
 #frame7-text{
-    font-family: auto;
     font-size: 60px;
 }
 
@@ -380,8 +458,6 @@ body{
 
 #frame8-text{
     color: #F98C8E;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
 }
 
@@ -396,8 +472,6 @@ body{
 
 #frame9-text{
     color: #BC1D2F;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
 }
 
@@ -412,8 +486,6 @@ body{
 
 #frame10-text{
     color:  black;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
     height: 100%;
 }
@@ -468,16 +540,12 @@ body{
 
 #frame11-text{
     color:  white;
-    font-family: auto;
-    font-weight: bold;
     font-size: 100px;
     animation: 0.3s textGrowth linear forwards;
 }
 
 #frame11-text2{
     color:  white;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
     animation: 0.25s textSlideOut linear forwards;
 }
@@ -502,8 +570,6 @@ body{
 
 #frame12-text{
     color:  #E3415F;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
 }
 
@@ -538,8 +604,6 @@ body{
 
 #frame13-text{
     color:  #E3415F;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
 }
 
@@ -555,8 +619,6 @@ body{
 
 #frame13-text2{
     color:  black;
-    font-family: auto;
-    font-weight: bold;
     font-size: 90px;
 }
 
@@ -596,8 +658,6 @@ body{
 
 .frame14-text{
     color:  #BB1D2F;
-    font-family: auto;
-    font-weight: bold;
     font-size: 60px;
     margin-bottom: -30px;
 }
@@ -609,8 +669,6 @@ body{
 }
 
 .frame15-text{
-    font-family: auto;
-    font-weight: bold;
     font-size: 100px;
     margin-bottom: -30px;
 }
@@ -622,8 +680,6 @@ body{
 }
 
 .frame16-text{
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
     margin-bottom: -30px;
 }
@@ -661,8 +717,6 @@ body{
 
 .frame16-text2{
     color: #FA8C92;
-    font-family: auto;
-    font-weight: bold;
     font-size: 120px;
 }
 
@@ -671,8 +725,6 @@ body{
 }
 
 .frame16-text2{
-    font-family: auto;
-    font-weight: bold;
 }
 #yeah1{
     font-size: 100px;
@@ -694,16 +746,12 @@ body{
 #yeah4{
     color: white;
     font-size: 270px;
-    font-family: auto;
-    font-weight: bold;
     animation: 0.5s textGrowth2 linear forwards;
 }
 
 #frame19{
     background-image: linear-gradient(180deg, #FD2FCC, #BF8BBE);
     font-size: 20px;
-    font-family: auto;
-    font-weight: bold;
     color: white;
 }
 
@@ -714,23 +762,17 @@ body{
 #frame20{
     background-image: linear-gradient(60deg, #0C0615, #291749);
     font-size: 65px;
-    font-family: auto;
-    font-weight: bold;
     color: white;
 }
 
 #frame20A{
     background-color: black;
     font-size: 65px;
-    font-family: auto;
-    font-weight: bold;
     color: #C10205;
 }
 
 #frame21{
     font-size: 65px;
-    font-family: auto;
-    font-weight: bold;
     color: #C10205;
     background-image: linear-gradient(180deg, #4B0002, #190100);
 }
@@ -741,8 +783,6 @@ body{
 
 .frame22-happen{
     color: #B80608;
-    font-family: auto;
-    font-weight: bold;
     font-size: 50px;
 }
 
@@ -774,8 +814,6 @@ body{
 }
 
 .frame23-text{
-    font-family: auto;
-    font-weight: bold;
     font-size: 50px;
     position: absolute;
     top: 0;
@@ -830,8 +868,6 @@ body{
 }
 
 #frame24-text{
-    font-family: auto;
-    font-weight: bold;
     font-size: 50px;
 }
 
@@ -841,8 +877,6 @@ body{
 }
 
 #frame25-text{
-    font-family: auto;
-    font-weight: bold;
     font-size: 80px;
 }
 
@@ -851,8 +885,6 @@ body{
 }
 
 .frame26-text{
-    font-family: auto;
-    font-weight: bold;
     font-size: 100px;
     color: #F9EDDE;
 }
@@ -878,24 +910,18 @@ body{
 
 #frame27{
     background-color: #630103;
-    font-family: auto;
-    font-weight: bold;
     font-size: 100px;
     color: #A91011;
 }
 
 #frame28{
     background-image: linear-gradient(90deg, #9E184B, #FE1C37);
-    font-family: auto;
-    font-weight: bold;
     font-size: 150px;
     color: #37080E;
 }
 
 #frame29{
     background-image: linear-gradient(90deg, #FC263A, #FC757E);
-    font-family: auto;
-    font-weight: bold;
     font-size: 200px;
     color: #2A184A;
 }
@@ -907,6 +933,118 @@ body{
 #frame30-text{
     color: white;
     font-size: 100px;
-    font-family: auto;
-    font-weight: bold;
+}
+
+#frame31{
+    background-image: linear-gradient(180deg, #F61355, #AA4081);
+}
+
+#frame31A, #frame31B{
+    color: #460317;
+}
+
+#frame31A{
+    font-size: 45px;
+    margin-top: 140px;
+    position: absolute;
+}
+
+#frame31B{
+    font-size: 85px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#frame31-text1{
+    position: absolute;
+    right: 400px;
+    animation: 0.4s whats-the-worst-part1 linear forwards; */
+}
+
+#frame31-text2{
+    position: absolute;
+    right: 200px;
+    animation: 0.4s whats-the-worst-part2 linear forwards; */
+}
+
+#frame31-text3{
+    position: absolute;
+    right: 520px;
+    animation: 0.4s whats-the-worst-part3 linear forwards; */
+}
+
+#frame31-text4{
+    position: absolute;
+    right: 180px;
+    animation: 0.4s whats-the-worst-part4 linear forwards; */
+}
+
+#frame32{
+    background-color: black;
+}
+
+#frame32-text{
+    color: #B51C31;
+    font-size: 110px;
+    margin-top: 30px;
+    animation: 0.5s of-this linear forwards;
+}
+
+#frame32-textB{
+    visibility: hidden;
+}
+
+#frame32-over{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+#frame32-over .skull{
+    height: 50px;
+    margin: 28px;
+    animation: 0.6s slide-in-skulls linear forwards;
+}
+
+#frame33{
+    background-color: black;
+}
+
+#frame33-text{
+    font-size: 150px;
+    color: #B51C31;
+    margin-top: 25px;
+    margin-right: -310px;
+}
+
+#frame34{
+    background-color: black;
+}
+
+#frame34-text{
+    font-size: 150px;
+    color: #B51C31;
+    margin-top: 25px;
+    margin-right: -310px;
+    animation: 0.5s hell-out linear forwards;
+}
+
+#frame35{
+    background-color: #E3415F;
+}
+
+#frame35-text{
+    font-size: 90px;
+    color: #A50303;
+    margin-left: 1000px;
+    animation: 0.5s i-can-only linear forwards
+}
+
+#frame36{
+    background-image: linear-gradient(180deg, #FD1969, #BE4CA9);
+}
+
+#frame36-text{
+    font-size: 110px;
+    color: white;
 }
