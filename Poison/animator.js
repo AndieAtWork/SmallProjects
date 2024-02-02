@@ -397,79 +397,42 @@ setTimeout(function() {
     document.getElementById("frame36-text").style.fontSize = "130px";
 },36300);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var aux = 37800;
-
 setTimeout(function() {
     document.getElementById("frame36").remove();
     document.getElementById("frame37").style.display = "flex";
-},0 + aux);
+},37800);
 
 setTimeout(function() {
     document.getElementById("frame37").remove();
     document.getElementById("frame38").style.display = "block";
-},180 + aux);
+},37980);
 
 setTimeout(function() {
     document.getElementById("frame38").innerHTML = '';
     document.getElementById("frame38-over").style.display = "block";
     document.getElementById("frame38B-text").style.display = "block";
-},500 + aux);
+},38300);
 
 setTimeout(function() {
     document.getElementById("frame38").remove();
     document.getElementById("frame38-over").remove();
     document.getElementById("frame39").style.display = "flex";
     document.getElementById("frame39-over").style.display = "block";
-},1000 + aux);
+},38800);
 
 setTimeout(function() {
     document.getElementById("frame39").remove();
     document.getElementById("frame39-over").remove();
     document.getElementById("frame40").style.display = "flex";
     document.getElementById("frame40-over").style.display = "block";
-},1700 + aux);
-
-
-
-
-
-
-
-
-
-
-
-x = -300
+},39500);
 
 setTimeout(function() {
     document.getElementById("frame41-container").style.display = "flex";
     document.getElementById("frame41B-container").style.display = "flex";
     document.getElementById("frame41").style.display = "flex";
     document.getElementById("frame41-text").style.display = "block";
-},4000 + aux + x);
+},41500);
 
 setTimeout(function() {
     document.getElementById("frame40").remove();
@@ -477,22 +440,22 @@ setTimeout(function() {
     document.getElementById("frame42-container").style.display = "flex";
     document.getElementById("frame42").style.display = "flex";
     document.getElementById("frame41-text").style.fontSize = "120px";
-},4200 + aux + x);
+},41700);
 
 setTimeout(function() {
     document.getElementById("frame41-text").innerHTML = "TO";
     document.getElementById("frame41-text").style.fontSize = "135px";
-},4300 + aux + x);
+},41800);
 
 setTimeout(function() {
     document.getElementById("frame41-text").innerHTML = "THIS";
     document.getElementById("frame41-text").style.fontSize = "135px";
-},4500 + aux + x);
+},42000);
 
 setTimeout(function() {
     document.getElementById("frame43-container").style.display = "flex";
     document.getElementById("frame43").style.display = "block";
-},4600 + aux + x);
+},42100);
 
 setTimeout(function() {
     document.getElementById("frame41-container").remove();
@@ -501,36 +464,27 @@ setTimeout(function() {
     document.getElementById("frame43-container").remove();
     document.getElementById("frame44-over").style.display = "block";
     document.getElementById("frame44").style.display = "block";
-},4800 + aux + x);
-
-
-
-
-
-
-
-
-
+},42300);
 
 setTimeout(function() {
     document.getElementById("frame44-over").remove();
     document.getElementById("frame44").remove();
     document.getElementById("frame45-over").style.display = "block";
     document.getElementById("frame45").style.display = "block";
-},5100 + aux + x);
+},42600);
 
 setTimeout(function() {
     document.getElementById("frame45-over").remove();
     document.getElementById("frame45").remove();
     document.getElementById("frame46").style.display = "block";
-},5500 + aux + x);
+},43000);
 
 setTimeout(function() {
     document.getElementById("frame46").remove();
     document.getElementById("frame47").style.display = "flex";
     document.getElementById("frame47-over").style.display = "flex";
     document.getElementById("frame47-text").style.display = "block";
-},5900 + aux + x);
+},43400);
 
 setTimeout(function() {
     document.getElementById("frame47").remove();
@@ -538,8 +492,8 @@ setTimeout(function() {
     document.getElementById("frame48").style.display = "flex";
     document.getElementById("frame48-over").style.display = "flex";
     document.getElementById("frame48-text").style.display = "block";
-},6300 + aux + x);
+},43800);
 
 setTimeout(function() {
     document.getElementById("frame48-textB").style.visibility = "visible";
-},6700 + aux + x);
+},44200);
