@@ -1,3 +1,4 @@
+
 setTimeout(function() {
     document.getElementById("frame1").remove();
     document.getElementById("frame2").style.display = "flex";
@@ -75,10 +76,10 @@ setTimeout(function() {
 }, 9600);
 setTimeout(function() {
     document.getElementById("heart5").style.display = "block";
-}, 9800);
+}, 9900);
 setTimeout(function() {
     document.getElementById("heart6").style.display = "block";
-}, 10000);
+}, 10200);
 
 setTimeout(function() {
     var hearts = document.getElementsByClassName("frame10-heart")
@@ -329,55 +330,55 @@ setTimeout(function() {
 setTimeout(function() {
     document.getElementById("frame30-text").style.fontSize = "100px";
     document.getElementById("frame30-text").style.color = "#F98C8E";
-}, 30800);
+}, 30800); 
 
 setTimeout(function() {
     document.getElementById("frame30-text").style.fontSize = "150px";
-}, 31000);  
+}, 31000); 
 
 
 setTimeout(function() {
     document.getElementById("frame30-text").style.fontSize = "200px";
     document.getElementById("frame30").style.backgroundImage = 'linear-gradient(180deg, #0E0817, #180D29)';
-}, 31200);  
+}, 31200); 
 
 setTimeout(function() {
     document.getElementById("frame30").remove();
     document.getElementById("frame31").style.display = "flex";
-},31200);
+},31800); 
 
 setTimeout(function() {
     document.getElementById("frame31-text3").style.display = "block";
-},31700);
+},32300); 
 
 setTimeout(function() {
     document.getElementById("frame31-text4").style.display = "block";
-},32200);
+},32800); 
 
 setTimeout(function() {
     document.getElementById("frame31").remove();
     document.getElementById("frame32").style.display = "flex";
     document.getElementById("frame32-text").style.display = "block";
-},32900);
+},33200); 
 
 setTimeout(function() {
     document.getElementById("frame32-over").style.display = "block";
-},32900);
+},33350);
 
 setTimeout(function() {
     document.getElementById("frame32-textB").style.visibility = "visible";
-},32950);
+},33500);
 
 setTimeout(function() {
     document.getElementById("frame32").remove();
     document.getElementById("frame33").style.display = "block";
-},33700);
+},34000);
 
 setTimeout(function() {
     document.getElementById("frame33").remove();
     document.getElementById("frame34").style.display = "block";
     document.getElementById("frame34-text").style.display = "block"
-},34200);
+},34600);
 
 setTimeout(function() {
     document.getElementById("frame34").remove();
@@ -389,12 +390,156 @@ setTimeout(function() {
     document.getElementById("frame35").remove();
     document.getElementById("frame32-over").remove();
     document.getElementById("frame36").style.display = "flex";
-},35900);
+},35800);
 
 setTimeout(function() {
     document.getElementById("frame36-text").innerHTML = "MYSELF";
     document.getElementById("frame36-text").style.fontSize = "130px";
-},36359);
+},36300);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var aux = 37800;
+
+setTimeout(function() {
+    document.getElementById("frame36").remove();
+    document.getElementById("frame37").style.display = "flex";
+},0 + aux);
+
+setTimeout(function() {
+    document.getElementById("frame37").remove();
+    document.getElementById("frame38").style.display = "block";
+},180 + aux);
+
+setTimeout(function() {
+    document.getElementById("frame38").innerHTML = '';
+    document.getElementById("frame38-over").style.display = "block";
+    document.getElementById("frame38B-text").style.display = "block";
+},500 + aux);
+
+setTimeout(function() {
+    document.getElementById("frame38").remove();
+    document.getElementById("frame38-over").remove();
+    document.getElementById("frame39").style.display = "flex";
+    document.getElementById("frame39-over").style.display = "block";
+},1000 + aux);
+
+setTimeout(function() {
+    document.getElementById("frame39").remove();
+    document.getElementById("frame39-over").remove();
+    document.getElementById("frame40").style.display = "flex";
+    document.getElementById("frame40-over").style.display = "block";
+},1700 + aux);
+
+
+
+
+
+
+
+
+
+
+
+x = -300
+
+setTimeout(function() {
+    document.getElementById("frame41-container").style.display = "flex";
+    document.getElementById("frame41B-container").style.display = "flex";
+    document.getElementById("frame41").style.display = "flex";
+    document.getElementById("frame41-text").style.display = "block";
+},4000 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame40").remove();
+    document.getElementById("frame40-over").remove();
+    document.getElementById("frame42-container").style.display = "flex";
+    document.getElementById("frame42").style.display = "flex";
+    document.getElementById("frame41-text").style.fontSize = "120px";
+},4200 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame41-text").innerHTML = "TO";
+    document.getElementById("frame41-text").style.fontSize = "135px";
+},4300 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame41-text").innerHTML = "THIS";
+    document.getElementById("frame41-text").style.fontSize = "135px";
+},4500 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame43-container").style.display = "flex";
+    document.getElementById("frame43").style.display = "block";
+},4600 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame41-container").remove();
+    document.getElementById("frame41B-container").remove();
+    document.getElementById("frame42-container").remove();
+    document.getElementById("frame43-container").remove();
+    document.getElementById("frame44-over").style.display = "block";
+    document.getElementById("frame44").style.display = "block";
+},4800 + aux + x);
+
+
+
+
+
+
+
+
+
+
+setTimeout(function() {
+    document.getElementById("frame44-over").remove();
+    document.getElementById("frame44").remove();
+    document.getElementById("frame45-over").style.display = "block";
+    document.getElementById("frame45").style.display = "block";
+},5100 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame45-over").remove();
+    document.getElementById("frame45").remove();
+    document.getElementById("frame46").style.display = "block";
+},5500 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame46").remove();
+    document.getElementById("frame47").style.display = "flex";
+    document.getElementById("frame47-over").style.display = "flex";
+    document.getElementById("frame47-text").style.display = "block";
+},5900 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame47").remove();
+    document.getElementById("frame47-over").remove();
+    document.getElementById("frame48").style.display = "flex";
+    document.getElementById("frame48-over").style.display = "flex";
+    document.getElementById("frame48-text").style.display = "block";
+},6300 + aux + x);
+
+setTimeout(function() {
+    document.getElementById("frame48-textB").style.visibility = "visible";
+},6700 + aux + x);

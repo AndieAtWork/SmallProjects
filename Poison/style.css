@@ -324,6 +324,107 @@ spam{
     }
 }
 
+@keyframes right-to-out{
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -2500px;
+    }
+}
+
+@keyframes right-to-out2{
+    0% {
+        left: 35px;
+    }
+    50%{
+        left: 35px;
+    }
+    100% {
+        left: -1000px;
+    }
+}
+
+@keyframes right-to-out3{
+    0% {
+        left: 250px;
+    }
+    80%{
+        left: -1250px;
+    }
+    100% {
+        left: -1350px;
+    }
+}
+
+@keyframes right-to-out4{
+    0% {
+        left: 150px;
+    }
+    60%{
+        left: 150px;
+    }
+    100% {
+        left: -600px;
+    }
+}
+
+@keyframes right-to-in{
+    0% {
+        left: 350px;
+    }
+    100% {
+        left: 150px;
+    }
+}
+
+@keyframes growing-frame{
+    0% {
+        height: 0px;
+        width: 0px;
+    }
+    100% {
+        height: 500px;
+        width: 800px;
+    }
+}
+
+@keyframes growing-frame-text{
+    0% {
+        font-size: 0px;
+    }
+    100% {
+        font-size: 70px;
+    }
+}
+
+@keyframes but-swallow{
+    0% {
+        background-color: #19050D;
+    }
+    100% {
+        background-color: #F90101;
+    }
+}
+
+@keyframes but-swallow-text{
+    0% {
+        font-size: 120px;
+    }
+    100% {
+        font-size: 90px;
+    }
+}
+
+@keyframes swallow-up-text{
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -100px;
+    }
+}
+
 /* **************FRAMES*************** */
 
 #frame1{
@@ -1047,4 +1148,201 @@ spam{
 #frame36-text{
     font-size: 110px;
     color: white;
+}
+
+#frame37{
+    background-color: #720001;
+}
+
+#frame37-text{
+    font-size: 200px;
+    color: white;
+}
+
+#frame38{
+    background-color: #720001;
+    width: 1500px;
+    padding-top: 150px;
+}
+
+#frame38-over{
+    position: absolute;
+    margin-top: 150px;
+    top: 0;
+}
+
+#frame38-text, #frame38B-text{
+    font-size: 150px;
+    color: white;
+    width: 1500px;
+    margin-left:100px;
+}
+
+#frame38B-text{
+    position: absolute;
+    animation: 2s right-to-out linear forwards;
+}
+
+#frame39{
+    background-image: linear-gradient(90deg, #000000, #1A0C2B);
+}
+
+#frame39-text{
+    font-size: 200px;
+    background-image: linear-gradient(to right, #F35F91, #EEC692);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#frame39-over{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    animation: 2s right-to-out2 linear forwards;
+}
+
+#frame39-over .skull{
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+#frame40{
+    background-color: #BA0608;
+}
+
+#frame40-over{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 3000px;
+    animation: 1.7s right-to-out3 linear forwards;
+}
+
+#frame40-text{
+    font-size: 120px;
+    color: #3A0305;
+}
+
+#frame40-textB{
+    font-size: 180px;
+    color: #3A0305;
+    margin-left: 200px;
+    position: absolute;
+    top: -40px;
+}
+
+#frame40-textB .skull{
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+#frame41{
+    background-image: linear-gradient(90deg, #820313, #200506);
+    animation: 1s growing-frame linear forwards;
+}
+
+#frame41-text{
+    color: white;
+    z-index: 10;
+    animation: 1s growing-frame-text linear forwards;
+}
+
+#frame41-container, #frame41B-container, #frame42-container, #frame43-container{
+    position: absolute;
+    top: 0;
+}
+
+#frame42{
+    background-image: linear-gradient(180deg, #F0797E, #A7454C);
+    animation: 0.45s growing-frame linear forwards;
+}
+
+#frame43{
+    background-image: linear-gradient(90deg, #820313, #BC1D2F);
+    animation: 0.45s growing-frame linear forwards;
+}
+
+#frame44{
+    background-color: #050308;
+}
+
+#frame44-text{
+    color: #E0405E;
+    font-size: 130px;
+}
+
+#frame44-over{
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    animation: 1.7s right-to-out4 linear forwards; */
+}
+
+#frame45{
+    background-image: linear-gradient(90deg, #050308, #211032);
+}
+
+#frame45-text{
+    color: #E0405E;
+    font-size: 130px;
+}
+
+#frame45-over{
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    animation: 0.7s right-to-in linear forwards;
+}
+
+#frame46{
+    background-color: #BC1D2F;
+}
+
+#frame46-text{
+    color: #FE8C8F;
+    font-size: 130px;
+}
+
+#frame47{
+    background-color: #19050D;
+    animation: 0.5s but-swallow linear forwards;
+}
+
+#frame47-text{
+    color: #F90101;
+    font-size: 120px;
+    animation: 0.5s but-swallow-text linear forwards;
+}
+
+#frame47-over{
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width: 800px;
+}
+
+#frame48{
+    background-color: #F90100;
+}
+
+#frame48-text, #frame48-textB{
+    color: black;
+    font-size: 90px;
+}
+
+#frame48-over{
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width: 1000px;
+    animation: 1s swallow-up-text linear forwards;
+}
+
+#frame48-textB{
+    visibility: hidden;
 }
