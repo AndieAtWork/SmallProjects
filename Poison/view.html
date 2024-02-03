@@ -13,8 +13,21 @@
 <div id="window-right"></div>
 <div id="window-down"></div>
 
+<!--
+<div id="frame0" class="frame">
+    <img id="wallpaper" src="imgs/wallpaper2.jpg">
+</div>
+<div id="frame0-over" class="row">
+    <center>
+        <button id="play-button" onclick="play();">PLAY</button>
+    </center>
+</div>
 
-<div id="frame1" class="frame">
+<audio id="song" style="visibility: hidden;">
+    <source src="song.mp3" type="audio/mp3">
+</audio>
+
+<div id="frame1" class="frame" style="display: none;">
     <img class="skull" src="imgs/white-skull.png">
 </div>
 
@@ -838,8 +851,7 @@
     <div id="frame48-text" style="display:none">SWALLOW <span id="frame48-textB">UP</span></div>
 </div>
 
-
-
+-->
 
 
 
@@ -853,37 +865,88 @@
 
 
 <div id="frame49" class="frame" style="display:none"></div>
-<div id="frame49-over" class="d-flex justify-content-center align-items-center" style="display:none">
+<div id="frame49-over" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
     <div id="frame49-text">YOUR</div>
 </div>
 
 <div id="frame50" class="frame" style="display:none"></div>
-<div id="frame50-over" class="d-flex justify-content-center align-items-center" style="display:none">
-    <div id="frame50-text">POIS<img class="skull" src="imgs/skull.png">N</div>
+<div id="frame50-over" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
+    <div id="frame50-text">POIS<img class="skull" src="imgs/red-skull.png">N</div>
 </div>
 
 <div id="frame51" class="frame" style="display:none"></div>
-<div id="frame51-over" class="d-flex justify-content-center align-items-center" style="display:none">
+<div id="frame51-over" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
     <div id="frame51-text">I MADE</div>
 </div>
 
 <div id="frame52" class="frame" style="display:none"></div>
-<div id="frame52-overA" class="d-flex justify-content-center align-items-center" style="display:none">
-    <div id="frame52-text">MY/div>
-</div>
-<div id="frame52-overB" class="d-flex justify-content-center align-items-center" style="display:none">
-    <div id="frame52-text">CHOICE</div>
+<div id="frame52-over" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
+    <div id="frame52-text">MY</div>
 </div>
 
-<div id="frame53" class="frame d-flex justify-content-center align-items-center">
-    <div id="frame53-text">AND</div>
+<div id="frame53" class="frame">
+</div>
+<div id="frame53-overA" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
+    <div id="frame53-textA" style="display:none;">CHOICE</div>
+</div>
+<div id="frame53-overB" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
+    <div id="frame53-textB" style="display:none;">AND</div>
 </div>
 
+<div id="frame54" class="frame" style="display:none"></div>
+<div id="frame54-over" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
+    <div id="frame54-text">EVERYDAY</div>
+</div>
 
+<div id="frame54-overB" class="frame-over d-flex justify-content-center align-items-center" style="display:none !important;">
+    <div id="frame54-textB">THERE'S</div>
+</div>
 
+<div id="frame55" class="frame d-flex justify-content-center align-items-center">
+    <div id="frame55-text">NO</div>
+</div>
 
+<div id="frame56" class="frame" style="display: none;">
+    <div id="tomorrow-container" class="row">
+        <div id="frame22-col1" class="col frame56-col">
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+        </div>
+        <div id="frame22-col2" class="col frame56-col">
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+        </div>
+        <div id="frame22-col3" class="col frame56-col">
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+            <br><br><br>
+            <span class="frame56-tomorrow">TOMORROW</span>
+        </div>
+    </div>
+</div>
 
-
+<div id="frame57" class="frame d-flex justify-content-center align-items-center" style="display: none !important;">
+    <div id="frame57-text">OH</div>
+</div>
 
 
 
