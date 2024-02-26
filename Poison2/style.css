@@ -464,6 +464,77 @@ spam{
     }
 }
 
+@keyframes right-to-in2{
+    0% {
+        left: 200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes circle1{
+    0% {
+        display: block;
+    }
+    19%{
+        display: block;
+    }
+    20%{
+        display: none !important;
+    }
+}
+
+@keyframes circle2{
+    0% {
+        visibility: visible;
+    }
+    19%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+}
+
+@keyframes circle3{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        left: hidden;
+    }
+}
+
+@keyframes circle4{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        left: hidden;
+    }
+}
+
+@keyframes circle5{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        left: hidden;
+    }
+}
+
+@keyframes ohhh{
+    0% {
+        text-shadow: none;
+        font-size: 65px;
+    }
+    100% {
+        text-shadow: 0px 0px 40px red;
+        font-size: 90px;
+    }
+}
+
 /* **************FRAMES*************** */
 
 #frame0-over{
@@ -1124,25 +1195,25 @@ spam{
 #frame31-text1{
     position: absolute;
     right: 400px;
-    animation: 0.4s whats-the-worst-part1 linear forwards; */
+    animation: 0.4s whats-the-worst-part1 linear forwards;
 }
 
 #frame31-text2{
     position: absolute;
     right: 200px;
-    animation: 0.4s whats-the-worst-part2 linear forwards; */
+    animation: 0.4s whats-the-worst-part2 linear forwards;
 }
 
 #frame31-text3{
     position: absolute;
     right: 520px;
-    animation: 0.4s whats-the-worst-part3 linear forwards; */
+    animation: 0.4s whats-the-worst-part3 linear forwards;
 }
 
 #frame31-text4{
     position: absolute;
     right: 180px;
-    animation: 0.4s whats-the-worst-part4 linear forwards; */
+    animation: 0.4s whats-the-worst-part4 linear forwards;
 }
 
 #frame32{
@@ -1344,7 +1415,7 @@ spam{
     position: absolute;
     top: 130px;
     left: 150px;
-    animation: 1.7s right-to-out4 linear forwards; */
+    animation: 1.7s right-to-out4 linear forwards;
 }
 
 #frame45{
@@ -1431,6 +1502,10 @@ spam{
     font-size: 200px;
 }
 
+#frame49-over{
+    animation: 0.5s right-to-in2 linear forwards;
+}
+
 #frame50{
     background-color: #19090D;
 }
@@ -1447,6 +1522,10 @@ spam{
     margin-bottom: 40px;
 }
 
+#frame50-over{
+    animation: 0.5s right-to-in2 linear forwards;
+}
+
 #frame51, #frame52{
     background-color: #C9132A;
 }
@@ -1454,6 +1533,14 @@ spam{
 #frame51-text, #frame52-text{
     color: #FD8A8F;
     font-size: 150px;
+}
+
+#frame51-over{
+    animation: 0.5s right-to-in2 linear forwards;
+}
+
+#frame52-over{
+    animation: 0.5s right-to-in2 linear forwards;
 }
 
 #frame53{
@@ -1477,10 +1564,13 @@ spam{
 
 #frame53-overA{
     margin-top: -80px;
+    animation: 0.5s right-to-in2 linear forwards;
 }
 
 #frame53-overB{
+    left: 200px;
     margin-top: 40px;
+    animation: 0.5s right-to-in2 linear forwards;
 }
 
 #frame54{
@@ -1546,4 +1636,35 @@ spam{
 #frame57-text{
     font-size: 65px;
     color: #D80124;
+    animation: 3s ohhh linear forwards;
+}
+
+.frame57-dots{
+    border: 5px dotted #D80124;
+    border-radius: 50%;
+}
+
+#frame57A{
+    height: 600px;
+    width: 600px;
+}
+
+#frame57B{
+    height: 500px;
+    width: 500px;
+}
+
+#frame57C{
+    height: 400px;
+    width: 400px;
+}
+
+#frame57D{
+    height: 300px;
+    width: 300px;
+}
+
+#frame57E{
+    height: 200px;
+    width: 200px;
 }

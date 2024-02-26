@@ -1,6 +1,6 @@
 function auxiliary(number){
-    return number;
-    //return Math.floor(number/2);
+    //return number;
+    return Math.floor(number/2);
 }
 
 function play(){
@@ -9,10 +9,9 @@ function play(){
     document.getElementById("frame0").remove();
     document.getElementById("frame0-over").remove();
 
-    /*
     document.getElementById("frame1").style.display = "flex";
 
-    //document.getElementById("song").play();
+    document.getElementById("song").play();
 
     setTimeout(function() {
         document.getElementById("frame1").remove();
@@ -513,38 +512,37 @@ function play(){
     setTimeout(function() {
         document.getElementById("frame48-textB").style.visibility = "visible";
     },auxiliary(88400));
-}
-*/
 
-    var aux = 88400;
+
+    var aux = 89400;
 
     setTimeout(function() {
-        //document.getElementById("frame48").remove();
-        //document.getElementById("frame48-over").remove();
+        document.getElementById("frame48").remove();
+        document.getElementById("frame48-over").remove();
         document.getElementById("frame49").style.display = "block";
         document.getElementById("frame49-over").style.display = "flex";
-    },auxiliary(0));
+    },auxiliary(0 + aux));
 
     setTimeout(function() {
         document.getElementById("frame49").remove();
         document.getElementById("frame49-over").remove();
         document.getElementById("frame50").style.display = "block";
         document.getElementById("frame50-over").style.display = "flex";
-    },auxiliary(1000));
+    },auxiliary(1000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame50").remove();
         document.getElementById("frame50-over").remove();
         document.getElementById("frame51").style.display = "block";
         document.getElementById("frame51-over").style.display = "flex";
-    },auxiliary(2000));
+    },auxiliary(2000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame51").remove();
         document.getElementById("frame51-over").remove();
         document.getElementById("frame52").style.display = "block";
         document.getElementById("frame52-over").style.display = "flex";
-    },auxiliary(3000));
+    },auxiliary(3000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame52").remove();
@@ -554,7 +552,7 @@ function play(){
         document.getElementById("frame53-overB").style.display = "flex";
         document.getElementById("frame53-textA").style.display = "block";
         document.getElementById("frame53-textB").style.display = "block";
-    },auxiliary(3700));
+    },auxiliary(3700 + aux));
 
     setTimeout(function() {
         document.getElementById("frame53").remove();
@@ -562,43 +560,292 @@ function play(){
         document.getElementById("frame53-overB").remove();
         document.getElementById("frame54").style.display = "block";
         document.getElementById("frame54-over").style.display = "flex";
-    },auxiliary(5400));
+    },auxiliary(5400 + aux));
 
     setTimeout(function() {
         document.getElementById("frame54-text").innerHTML = "NIGHT";
-    },auxiliary(6500));
+    },auxiliary(6500 + aux));
 
     setTimeout(function() {
         document.getElementById("frame54-text").innerHTML = "I'M";
-    },auxiliary(7000));
+    },auxiliary(7000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame54-text").innerHTML = "LIVING";
-    },auxiliary(7400));
+    },auxiliary(7400 + aux));
 
     setTimeout(function() {
         document.getElementById("frame54-text").innerHTML = "LIKE";
-    },auxiliary(8400));
+    },auxiliary(8400 + aux));
 
     setTimeout(function() {
         document.getElementById("frame54-over").remove();
         document.getElementById("frame54-overB").style.display = "flex";
-    },auxiliary(8800));
+    },auxiliary(8800 + aux));
 
     setTimeout(function() {
         document.getElementById("frame54").remove();
         document.getElementById("frame54-overB").remove();
         document.getElementById("frame55").style.display = "flex";
-    },auxiliary(10000));
+    },auxiliary(10000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame55").remove();
         document.getElementById("frame56").style.display = "flex";
-    },auxiliary(10800));
+    },auxiliary(10800 + aux));
+    
+
+    //var aux = -10000;
 
     setTimeout(function() {
         document.getElementById("frame56").remove();
         document.getElementById("frame57").style.display = "flex";
-    },auxiliary(12200));
+
+        document.getElementById("frame57-overA").style.display = "block";
+        document.getElementById("frame57-overB").style.display = "block";
+        document.getElementById("frame57-overC").style.display = "block";
+        document.getElementById("frame57-overD").style.display = "block";
+        document.getElementById("frame57-overE").style.display = "block";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(13000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(13200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57D").classList.remove("d-flex");
+        document.getElementById("frame57D").style.display = "none";
+
+        document.getElementById("frame57C").style.display = "block";
+
+    },auxiliary(13400 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57C").classList.remove("d-flex");
+        document.getElementById("frame57C").style.display = "none";
+
+        document.getElementById("frame57B").style.display = "block";
+    },auxiliary(13600 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57B").classList.remove("d-flex");
+        document.getElementById("frame57B").style.display = "none";
+
+        document.getElementById("frame57A").style.display = "block";
+    },auxiliary(13800 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(14000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").classList.add("d-flex");
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(14200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57D").classList.remove("d-flex");
+        document.getElementById("frame57D").style.display = "none";
+
+        document.getElementById("frame57C").classList.add("d-flex");
+        document.getElementById("frame57C").style.display = "block";
+    },auxiliary(14400 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57C").classList.remove("d-flex");
+        document.getElementById("frame57C").style.display = "none";
+
+        document.getElementById("frame57B").style.display = "block";
+    },auxiliary(14600 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57B").classList.remove("d-flex");
+        document.getElementById("frame57B").style.display = "none";
+
+        document.getElementById("frame57A").style.display = "block";
+    },auxiliary(14800 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(15000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(15200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57D").classList.remove("d-flex");
+        document.getElementById("frame57D").style.display = "none";
+
+        document.getElementById("frame57C").style.display = "block";
+
+    },auxiliary(15400 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57C").classList.remove("d-flex");
+        document.getElementById("frame57C").style.display = "none";
+
+        document.getElementById("frame57B").style.display = "block";
+    },auxiliary(15600 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57B").classList.remove("d-flex");
+        document.getElementById("frame57B").style.display = "none";
+
+        document.getElementById("frame57A").style.display = "block";
+    },auxiliary(15800 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(16000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").classList.add("d-flex");
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(16200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57D").classList.remove("d-flex");
+        document.getElementById("frame57D").style.display = "none";
+
+        document.getElementById("frame57C").classList.add("d-flex");
+        document.getElementById("frame57C").style.display = "block";
+    },auxiliary(16400 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57C").classList.remove("d-flex");
+        document.getElementById("frame57C").style.display = "none";
+
+        document.getElementById("frame57B").style.display = "block";
+    },auxiliary(16600 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57B").classList.remove("d-flex");
+        document.getElementById("frame57B").style.display = "none";
+
+        document.getElementById("frame57A").style.display = "block";
+    },auxiliary(16800 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(17000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(17200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").classList.add("d-flex");
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(17400 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57D").classList.remove("d-flex");
+        document.getElementById("frame57D").style.display = "none";
+
+        document.getElementById("frame57C").classList.add("d-flex");
+        document.getElementById("frame57C").style.display = "block";
+    },auxiliary(17600 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57C").classList.remove("d-flex");
+        document.getElementById("frame57C").style.display = "none";
+
+        document.getElementById("frame57B").style.display = "block";
+    },auxiliary(17800 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57B").classList.remove("d-flex");
+        document.getElementById("frame57B").style.display = "none";
+
+        document.getElementById("frame57A").style.display = "block";
+    },auxiliary(18000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(18200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").classList.add("d-flex");
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(18400 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57D").classList.remove("d-flex");
+        document.getElementById("frame57D").style.display = "none";
+
+        document.getElementById("frame57C").classList.add("d-flex");
+        document.getElementById("frame57C").style.display = "block";
+    },auxiliary(18600 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57C").classList.remove("d-flex");
+        document.getElementById("frame57C").style.display = "none";
+
+        document.getElementById("frame57B").style.display = "block";
+    },auxiliary(18800 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57B").classList.remove("d-flex");
+        document.getElementById("frame57B").style.display = "none";
+
+        document.getElementById("frame57A").style.display = "block";
+    },auxiliary(19000 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57A").classList.remove("d-flex");
+        document.getElementById("frame57A").style.display = "none";
+
+        document.getElementById("frame57E").style.display = "block";
+    },auxiliary(19200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame57E").classList.remove("d-flex");
+        document.getElementById("frame57E").style.display = "none";
+
+        document.getElementById("frame57D").classList.add("d-flex");
+        document.getElementById("frame57D").style.display = "block";
+    },auxiliary(19400 + aux));
+
+    // setTimeout(function() {
+    // },auxiliary(16400));
 
 }
