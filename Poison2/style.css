@@ -624,6 +624,17 @@ spam{
     }
 }
 
+@keyframes radius {
+    0% { 
+        height: 200px;
+        width: 200px;
+    }
+    100% { 
+        height: 700px;
+        width: 700px; 
+    }
+}
+
 /* **************FRAMES*************** */
 
 #frame0-over{
@@ -1473,7 +1484,7 @@ spam{
 #frame41-text{
     color: white;
     z-index: 10;
-    animation: 1s growing-frame-text linear forwards;
+    animation: 0.2s growing-frame-text linear forwards;
 }
 
 #frame41-container, #frame41B-container, #frame42-container, #frame43-container{
@@ -1735,28 +1746,9 @@ spam{
 }
 
 #frame57A{
-    height: 600px;
-    width: 600px;
-}
-
-#frame57B{
-    height: 500px;
-    width: 500px;
-}
-
-#frame57C{
-    height: 400px;
-    width: 400px;
-}
-
-#frame57D{
-    height: 300px;
-    width: 300px;
-}
-
-#frame57E{
     height: 200px;
     width: 200px;
+    animation: 1s radius infinite;
 }
 
 #frame58, #frame60{

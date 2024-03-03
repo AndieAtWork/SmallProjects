@@ -598,259 +598,19 @@ function play(){
         document.getElementById("frame56").remove();
         document.getElementById("frame57").style.display = "flex";
 
-        document.getElementById("frame57-overA").style.display = "block";
-        document.getElementById("frame57-overB").style.display = "block";
-        document.getElementById("frame57-overC").style.display = "block";
-        document.getElementById("frame57-overD").style.display = "block";
-        document.getElementById("frame57-overE").style.display = "block";
-
-        document.getElementById("frame57E").style.display = "block";
+        document.getElementById("frame57-overA").classList.add("d-flex");
+        document.getElementById("frame57A").classList.add("d-flex");
+        document.getElementById("frame57").style.display = "flex";
+        document.getElementById("frame57-overA").style.display = "flex !important";
+        document.getElementById("frame57A").style.display = "flex";
+        
     },auxiliary(102400));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(102600));
-
-    setTimeout(function() {
-        document.getElementById("frame57D").classList.remove("d-flex");
-        document.getElementById("frame57D").style.display = "none";
-
-        document.getElementById("frame57C").style.display = "block";
-
-    },auxiliary(102800));
-
-    setTimeout(function() {
-        document.getElementById("frame57C").classList.remove("d-flex");
-        document.getElementById("frame57C").style.display = "none";
-
-        document.getElementById("frame57B").style.display = "block";
-    },auxiliary(103000));
-
-    setTimeout(function() {
-        document.getElementById("frame57B").classList.remove("d-flex");
-        document.getElementById("frame57B").style.display = "none";
-
-        document.getElementById("frame57A").style.display = "block";
-    },auxiliary(103200));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(103400));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").classList.add("d-flex");
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(103600));
-
-    setTimeout(function() {
-        document.getElementById("frame57D").classList.remove("d-flex");
-        document.getElementById("frame57D").style.display = "none";
-
-        document.getElementById("frame57C").classList.add("d-flex");
-        document.getElementById("frame57C").style.display = "block";
-    },auxiliary(103800));
-
-    setTimeout(function() {
-        document.getElementById("frame57C").classList.remove("d-flex");
-        document.getElementById("frame57C").style.display = "none";
-
-        document.getElementById("frame57B").style.display = "block";
-    },auxiliary(104000));
-
-    setTimeout(function() {
-        document.getElementById("frame57B").classList.remove("d-flex");
-        document.getElementById("frame57B").style.display = "none";
-
-        document.getElementById("frame57A").style.display = "block";
-    },auxiliary(104200));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(104400));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(104600));
-
-    setTimeout(function() {
-        document.getElementById("frame57D").classList.remove("d-flex");
-        document.getElementById("frame57D").style.display = "none";
-
-        document.getElementById("frame57C").style.display = "block";
-
-    },auxiliary(104800));
-
-    setTimeout(function() {
-        document.getElementById("frame57C").classList.remove("d-flex");
-        document.getElementById("frame57C").style.display = "none";
-
-        document.getElementById("frame57B").style.display = "block";
-    },auxiliary(105000));
-
-    setTimeout(function() {
-        document.getElementById("frame57B").classList.remove("d-flex");
-        document.getElementById("frame57B").style.display = "none";
-
-        document.getElementById("frame57A").style.display = "block";
-    },auxiliary(105200));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(105400));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").classList.add("d-flex");
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(105600));
-
-    setTimeout(function() {
-        document.getElementById("frame57D").classList.remove("d-flex");
-        document.getElementById("frame57D").style.display = "none";
-
-        document.getElementById("frame57C").classList.add("d-flex");
-        document.getElementById("frame57C").style.display = "block";
-    },auxiliary(105800));
-
-    setTimeout(function() {
-        document.getElementById("frame57C").classList.remove("d-flex");
-        document.getElementById("frame57C").style.display = "none";
-
-        document.getElementById("frame57B").style.display = "block";
-    },auxiliary(106000));
-
-    setTimeout(function() {
-        document.getElementById("frame57B").classList.remove("d-flex");
-        document.getElementById("frame57B").style.display = "none";
-
-        document.getElementById("frame57A").style.display = "block";
-    },auxiliary(106200));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(106400));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(106600));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").classList.add("d-flex");
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(106800));
-
-    setTimeout(function() {
-        document.getElementById("frame57D").classList.remove("d-flex");
-        document.getElementById("frame57D").style.display = "none";
-
-        document.getElementById("frame57C").classList.add("d-flex");
-        document.getElementById("frame57C").style.display = "block";
-    },auxiliary(107000));
-
-    setTimeout(function() {
-        document.getElementById("frame57C").classList.remove("d-flex");
-        document.getElementById("frame57C").style.display = "none";
-
-        document.getElementById("frame57B").style.display = "block";
-    },auxiliary(107200));
-
-    setTimeout(function() {
-        document.getElementById("frame57B").classList.remove("d-flex");
-        document.getElementById("frame57B").style.display = "none";
-
-        document.getElementById("frame57A").style.display = "block";
-    },auxiliary(107400));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(107600));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").classList.add("d-flex");
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(107800));
-
-    setTimeout(function() {
-        document.getElementById("frame57D").classList.remove("d-flex");
-        document.getElementById("frame57D").style.display = "none";
-
-        document.getElementById("frame57C").classList.add("d-flex");
-        document.getElementById("frame57C").style.display = "block";
-    },auxiliary(108000));
-
-    setTimeout(function() {
-        document.getElementById("frame57C").classList.remove("d-flex");
-        document.getElementById("frame57C").style.display = "none";
-
-        document.getElementById("frame57B").style.display = "block";
-    },auxiliary(108200));
-
-    setTimeout(function() {
-        document.getElementById("frame57B").classList.remove("d-flex");
-        document.getElementById("frame57B").style.display = "none";
-
-        document.getElementById("frame57A").style.display = "block";
-    },auxiliary(108400));
-
-    setTimeout(function() {
-        document.getElementById("frame57A").classList.remove("d-flex");
-        document.getElementById("frame57A").style.display = "none";
-
-        document.getElementById("frame57E").style.display = "block";
-    },auxiliary(108600));
-
-    setTimeout(function() {
-        document.getElementById("frame57E").classList.remove("d-flex");
-        document.getElementById("frame57E").style.display = "none";
-
-        document.getElementById("frame57D").classList.add("d-flex");
-        document.getElementById("frame57D").style.display = "block";
-    },auxiliary(108800));
 
     var aux = 109800;
 
     setTimeout(function() {
         document.getElementById("frame57").remove();
         document.getElementById("frame57-overA").remove();
-        document.getElementById("frame57-overB").remove();
-        document.getElementById("frame57-overC").remove();
-        document.getElementById("frame57-overD").remove();
-        document.getElementById("frame57-overE").remove();
 
         document.getElementById("frame58").style.display = "flex";
         document.getElementById("frame58-overA").style.display = "block";
@@ -859,7 +619,7 @@ function play(){
         document.getElementById("frame58-dots").style.display = "block";
 
 
-    },auxiliary(0 + aux));
+    },auxiliary(-700 + aux));
 
     setTimeout(function() {
         document.getElementById("frame58").remove();
@@ -870,7 +630,7 @@ function play(){
         document.getElementById("frame59-overA").style.display = "flex";
         document.getElementById("frame59-overB").style.display = "block";
         document.getElementById("frame59-dots").style.display = "block";
-    },auxiliary(2000 + aux));
+    },auxiliary(1700 + aux));
 
     setTimeout(function() {
         document.getElementById("frame59").remove();
@@ -945,7 +705,7 @@ function play(){
         document.getElementById("frame64-over").style.display = "block";
         document.getElementById("pentagram").style.display = "block";
         document.getElementById("frame64A").style.display = "block";
-    },auxiliary(14100 + aux));
+    },auxiliary(14800 + aux));
 
     setTimeout(function() {
         document.getElementById("frame64B").style.display = "block";
