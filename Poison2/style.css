@@ -35,7 +35,16 @@ spam{
 .frame{
     height: 500px;
     width: 800px;
-    border: 1px solid white;
+}
+
+#frame-border{
+    height: 501px;
+    width: 801px;
+    background-color: transparent;
+    position: absolute;
+    outline: 2px solid white;
+    outline-offset: 1px;
+    z-index: 1000;
 }
 
 @keyframes slideOut {
@@ -568,6 +577,53 @@ spam{
     }
 }
 
+@keyframes moving-frame1 {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+@keyframes from-your1{
+    0% {
+        margin-left: -100px;
+    }
+    100% {
+        margin-left: 30px;
+    }
+}
+
+@keyframes from-your2{
+    0% {
+        margin-left: 670px;
+    }
+    100% {
+        margin-left: 590px !important;
+    }
+}
+
+@keyframes pentagram {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+  }
+
+@keyframes chains {
+    0% { 
+        opacity: 1;
+    } 90%{
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
+
 /* **************FRAMES*************** */
 
 #frame0-over{
@@ -965,6 +1021,7 @@ spam{
     width: 400px;
     height: 230px;
     top: 0;
+    animation: 2.5s chains linear  forwards;
     background: linear-gradient(-30deg, transparent, transparent 50%, #A71113 50%, #A71113 60%, transparent 60%);
 }
 
@@ -973,6 +1030,7 @@ spam{
     width: 1000px;
     height: 300px;
     top: 200px;
+    animation: 2.5s chains linear  forwards;
     background: linear-gradient(10deg, transparent, transparent 0%, #A71113 0%, #A71113 10%, transparent 11%);
 }
 
@@ -982,6 +1040,7 @@ spam{
     height: 500px;
     top: 200px;
     left: 400px;
+    animation: 2.5s chains linear  forwards;
     background: linear-gradient(-50deg, transparent, transparent 55%, #A71113 55%, #A71113 60%, transparent 60%);
 }
 
@@ -994,8 +1053,6 @@ spam{
     background-image: linear-gradient(90deg, #0C0615, #22133B);
 }
 
-.frame16-text2{
-}
 #yeah1{
     font-size: 100px;
 }
@@ -1410,7 +1467,7 @@ spam{
 
 #frame41{
     background-image: linear-gradient(90deg, #820313, #200506);
-    animation: 1s growing-frame linear forwards;
+    animation: 0.2s growing-frame linear forwards;
 }
 
 #frame41-text{
@@ -1426,12 +1483,12 @@ spam{
 
 #frame42{
     background-image: linear-gradient(180deg, #F0797E, #A7454C);
-    animation: 0.45s growing-frame linear forwards;
+    animation: 0.2s growing-frame linear forwards;
 }
 
 #frame43{
     background-image: linear-gradient(90deg, #820313, #BC1D2F);
-    animation: 0.45s growing-frame linear forwards;
+    animation: 0.2s growing-frame linear forwards;
 }
 
 #frame44{
@@ -1711,12 +1768,24 @@ spam{
     position: absolute;
 }
 
+#frame58-overA{
+    animation: 1.4s moving-frame1 linear forwards;
+}
+
+#frame58-overB{
+    animation: 1.4s moving-frame1 linear forwards;
+}
+
 #frame58-text-block, #frame60-text-block, #frame61-text-block{
     font-size: 90px;
     width: 2000px;
     background-color: #CA2B3F;
     padding: 20px;
     margin-top: 150px;
+}
+
+#frame58-text-block, #frame60-text-block{
+    padding-left: 300px;
 }
 
 #frame58-dots, #frame60-dots, #frame61-dots{
@@ -1747,18 +1816,26 @@ spam{
     border-top: 20px dotted #CA2B3F;
 }
 
+#frame60-overA{
+    animation: 1.2s moving-frame1 linear forwards;
+}
+
+#frame60-overB{
+    animation: 1.2s moving-frame1 linear forwards;
+}
+
 #frame61{
     background-color: #F7888A;
 }
 
 #frame61-text-block{
-    animation: 0.5s ill-be1 linear forwards;
-    animation-delay: 0.5s;
+    animation: 0.4s ill-be1 linear forwards;
+    animation-delay: 0.1s;
 }
 
 #frame61-overA{
-    animation: 2s ill-be2 linear forwards;
-    animation-delay: 1s;
+    animation: 0.4s ill-be2 linear forwards;
+    animation-delay: 0.1s;
 }
 
 #frame62{
@@ -1775,6 +1852,7 @@ spam{
 }
 
 #frame63{
+    position: absolute;
     font-size: 60px;
     color: #952033;
     background-image: linear-gradient(180deg, #010103, #1B0F30);
@@ -1798,7 +1876,6 @@ spam{
 }
 
 #frame64D{
-    margin-top: 120px;
 }
 
 #frame64B{
@@ -1806,16 +1883,23 @@ spam{
     float: left;
     color: #2F070D;
     margin-left: 30px;
+    animation: 0.5s from-your1 linear forwards;
+    width: 100px;
 }
 
 #frame64C{
     font-size: 60px;
     float: right;
     color: #2F070D;
-    margin-right: 30px;
+    animation: 0.5s from-your2 linear forwards;
+    width: 100px;
+    display: block;
+    position:absolute;
+    margin-left: 590px;
 }
 
 #pentagram{
     width: 300px;
     margin-top: 100px;
+    animation: 5s pentagram linear infinite;
 }

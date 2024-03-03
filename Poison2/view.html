@@ -13,6 +13,7 @@
 <div id="window-right"></div>
 <div id="window-down"></div>
 
+<div id="frame-border"></div>
 
 <div id="frame0" class="frame">
     <img id="wallpaper" src="imgs/wallpaper2.jpg">
@@ -26,8 +27,6 @@
 <audio id="song" style="visibility: hidden;">
     <source src="song.mp3" type="audio/mp3">
 </audio>
-
-<!--
 
 <div id="frame1" class="frame" style="display: none;">
     <img class="skull" src="imgs/white-skull.png">
@@ -963,8 +962,6 @@
     </div>
 </div>
 
--->
-
 <div id="frame58" class="frame" style="display: none;">
 </div>
 
@@ -1023,7 +1020,7 @@
 </div>
 
 <div id="frame62-over" class="moving-frame" style="display: none;">
-    YOOOOOOOOOOOOOOURS
+    YOOOOOOOOOOOOURS
 </div>
 
 <div id="frame63" class="frame" style="display: none;">
@@ -1031,7 +1028,7 @@
         <div class="d-flex justify-content-center align-items-center">
             MY STORY'S <span id="frame63B" style="visibility: hidden;"> GONNA</span>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
+        <div id="frame63C" class="d-flex justify-content-center align-items-center" style="visibility: hidden;">
             END WITH ME
         </div>
     </div>
@@ -1044,16 +1041,18 @@
 </div>
 
 <div id="frame64-over" class="frame-over" style="display: none;">
-    <div id="frame64A" class="d-flex justify-content-center align-items-center">
+    <div id="frame64A" class="d-flex justify-content-center align-items-center" style="display: none !important;">
         DEAD
     </div>
-    <div id="frame64B" class="col-lg-6">
-        FROM
+    <div class="row">
+        <div id="frame64B" class="col-lg-6" style="display: none;">
+            FROM
+        </div>
+        <div id="frame64C" class="col-lg-6" style="display: none;">
+            YOUR
+        </div>
     </div>
-    <div id="frame64C" class="col-lg-6">
-        YOUR
-    </div>
-    <div id="frame64D" class="d-flex justify-content-center align-items-center">
+    <div id="frame64D" class="d-flex justify-content-center align-items-center" style="display: none !important;">
         POISON
     </div>
 </div>

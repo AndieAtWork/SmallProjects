@@ -1,15 +1,13 @@
 function auxiliary(number){
-    return number;
-    //return Math.floor(number/2);
+    //return number;
+    return Math.floor(number/2);
 }
 
 function play(){
-
     
     document.getElementById("frame0").remove();
     document.getElementById("frame0-over").remove();
 
-    /*
     document.getElementById("frame1").style.display = "flex";
 
     document.getElementById("song").play();
@@ -247,10 +245,13 @@ function play(){
     
     setTimeout(function() {
         document.getElementById("frame22").remove();
+
         document.getElementById("frame23").style.display = "flex";
+        document.getElementById("frame23-hearts1").style.display = "block";
+        document.getElementById("frame23-hearts2").style.display = "block";
         document.getElementById("frame23-text0").style.display = "block";
         document.getElementById("frame23-text0A").style.display = "block"; // I
-    }, auxiliary(46800)); //46000
+    }, auxiliary(46800)); 
     
     setTimeout(function() {
         document.getElementById("frame23-text1").style.display = "block";
@@ -595,14 +596,14 @@ function play(){
 
     setTimeout(function() {
         document.getElementById("frame56").remove();
-        <document.getElementById("frame57").style.display = "flex";
+        document.getElementById("frame57").style.display = "flex";
 
         document.getElementById("frame57-overA").style.display = "block";
         document.getElementById("frame57-overB").style.display = "block";
         document.getElementById("frame57-overC").style.display = "block";
         document.getElementById("frame57-overD").style.display = "block";
         document.getElementById("frame57-overE").style.display = "block";
->
+
         document.getElementById("frame57E").style.display = "block";
     },auxiliary(102400));
 
@@ -840,15 +841,16 @@ function play(){
         document.getElementById("frame57D").classList.add("d-flex");
         document.getElementById("frame57D").style.display = "block";
     },auxiliary(108800));
-    */
+
+    var aux = 109800;
 
     setTimeout(function() {
-        // document.getElementById("frame57").remove();
-        // document.getElementById("frame57-overA").remove();
-        // document.getElementById("frame57-overB").remove();
-        // document.getElementById("frame57-overC").remove();
-        // document.getElementById("frame57-overD").remove();
-        // document.getElementById("frame57-overE").remove();
+        document.getElementById("frame57").remove();
+        document.getElementById("frame57-overA").remove();
+        document.getElementById("frame57-overB").remove();
+        document.getElementById("frame57-overC").remove();
+        document.getElementById("frame57-overD").remove();
+        document.getElementById("frame57-overE").remove();
 
         document.getElementById("frame58").style.display = "flex";
         document.getElementById("frame58-overA").style.display = "block";
@@ -857,7 +859,7 @@ function play(){
         document.getElementById("frame58-dots").style.display = "block";
 
 
-    },auxiliary(0));
+    },auxiliary(0 + aux));
 
     setTimeout(function() {
         document.getElementById("frame58").remove();
@@ -868,7 +870,7 @@ function play(){
         document.getElementById("frame59-overA").style.display = "flex";
         document.getElementById("frame59-overB").style.display = "block";
         document.getElementById("frame59-dots").style.display = "block";
-    },auxiliary(2000));
+    },auxiliary(2000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame59").remove();
@@ -880,7 +882,7 @@ function play(){
         document.getElementById("frame60-text-block").style.display = "block";
         document.getElementById("frame60-overB").style.display = "block";
         document.getElementById("frame60-dots").style.display = "block";
-    },auxiliary(3000));
+    },auxiliary(3000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame60").remove();
@@ -893,47 +895,48 @@ function play(){
         document.getElementById("frame61-overB").style.display = "block";
         document.getElementById("frame61-dots").style.display = "block";
         document.getElementById("frame62").style.display = "flex";
-    },auxiliary(4000));
+    },auxiliary(5500 + aux));
 
     setTimeout(function() {
         document.getElementById("frame61").remove();
         document.getElementById("frame61-overB").remove();
-    },auxiliary(5000));
+    },auxiliary(6000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame61-overA").remove();
 
         document.getElementById("frame62-over").style.display = "block";
-    },auxiliary(8000));
+    },auxiliary(6500 + aux));
 
     setTimeout(function() {
         document.getElementById("frame62").style.backgroundImage = 'linear-gradient(180deg, #010103, #1B0F30)';
-    },auxiliary(10000));
+    },auxiliary(8200 + aux));
 
     setTimeout(function() {
         document.getElementById("frame62-over").style.fontSize = "250px";
         document.getElementById("frame62-over").style.marginTop = "60px";
-    },auxiliary(12000));
+    },auxiliary(9000 + aux));
 
     setTimeout(function() {
         document.getElementById("frame62-over").style.fontSize = "500px";
         document.getElementById("frame62-over").style.marginTop = "-120px";
-    },auxiliary(14000));
+        document.getElementById("frame62-over").innerHTML = "YOURS" 
+    },auxiliary(10000 + aux)); 
 
     setTimeout(function() {
         document.getElementById("frame62-over").remove();
         document.getElementById("frame62").remove();
 
         document.getElementById("frame63").style.display = "block";
-    },auxiliary(18000));
+    },auxiliary(12350 + aux));
 
     setTimeout(function() {
         document.getElementById("frame63B").style.visibility = "visible"
-    },auxiliary(18300));
+    },auxiliary(12750 + aux));
 
     setTimeout(function() {
         document.getElementById("frame63C").style.visibility = "visible"
-    },auxiliary(18600));
+    },auxiliary(13600 + aux));
 
     setTimeout(function() {
         document.getElementById("frame63").remove();
@@ -941,7 +944,19 @@ function play(){
         document.getElementById("frame64").style.display = "block";
         document.getElementById("frame64-over").style.display = "block";
         document.getElementById("pentagram").style.display = "block";
+        document.getElementById("frame64A").style.display = "block";
+    },auxiliary(14100 + aux));
 
-    },auxiliary(19000));
+    setTimeout(function() {
+        document.getElementById("frame64B").style.display = "block";
+    },auxiliary(15800 + aux));
 
+    setTimeout(function() {
+        document.getElementById("frame64C").style.display = "block";
+    },auxiliary(16200 + aux));
+
+    setTimeout(function() {
+        document.getElementById("frame64D").style.display = "block";
+    },auxiliary(16800 + aux));
+ 
 }
