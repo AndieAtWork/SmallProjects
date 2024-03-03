@@ -35,6 +35,7 @@ spam{
 .frame{
     height: 500px;
     width: 800px;
+    border: 1px solid white;
 }
 
 @keyframes slideOut {
@@ -532,6 +533,38 @@ spam{
     100% {
         text-shadow: 0px 0px 40px red;
         font-size: 90px;
+    }
+}
+
+@keyframes ill-be1{
+    0% {
+        font-size: 90px;
+        height: 260px;
+    }
+    100% {
+        font-size: 120px;
+        height: 500px;
+    }
+}
+
+@keyframes ill-be2{
+    0% {
+        margin-left: 0px;
+    }
+    60%{
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1200px;
+    }
+}
+
+@keyframes yours{
+    0% {
+        margin-left: 800px;
+    }
+    100% {
+        margin-left: -6000px;
     }
 }
 
@@ -1667,4 +1700,122 @@ spam{
 #frame57E{
     height: 200px;
     width: 200px;
+}
+
+#frame58, #frame60{
+    background-color: black;
+}
+
+.moving-frame{
+    top: 0;
+    position: absolute;
+}
+
+#frame58-text-block, #frame60-text-block, #frame61-text-block{
+    font-size: 90px;
+    width: 2000px;
+    background-color: #CA2B3F;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+#frame58-dots, #frame60-dots, #frame61-dots{
+    display: block;
+    border-bottom: 20px dotted #CA2B3F;
+    height: 300px;
+    width: 2000px;
+    margin-top: 90px;
+    border-top: 20px dotted #CA2B3F;
+}
+
+#frame59{
+    background-color: #F7888A;
+}
+
+#frame59-overA{
+    font-size: 150px;
+    padding-bottom: 25px;
+    color: #BA1E2F;
+}
+
+#frame59-dots{
+    display: block;
+    border-bottom: 20px dotted #CA2B3F;
+    height: 300px;
+    width: 2000px;
+    margin-top: 90px;
+    border-top: 20px dotted #CA2B3F;
+}
+
+#frame61{
+    background-color: #F7888A;
+}
+
+#frame61-text-block{
+    animation: 0.5s ill-be1 linear forwards;
+    animation-delay: 0.5s;
+}
+
+#frame61-overA{
+    animation: 2s ill-be2 linear forwards;
+    animation-delay: 1s;
+}
+
+#frame62{
+    background-color: #CA2B3F;
+    z-index: -100;
+}
+
+#frame62-over{
+    color: white;
+    font-size: 170px;
+    margin-top: 110px;
+    margin-left: 800px;
+    animation: 10s yours linear forwards;
+}
+
+#frame63{
+    font-size: 60px;
+    color: #952033;
+    background-image: linear-gradient(180deg, #010103, #1B0F30);
+}
+
+#frame63-text{
+    margin-top: 140px;
+}
+
+#frame63B{
+    margin-left: 15px;
+}
+
+#frame64{
+    background-image: linear-gradient(180deg, #BC1D2F, #BA5D60);
+}
+    
+#frame64A, #frame64D{
+    font-size: 120px;
+    color: #2F070D;
+}
+
+#frame64D{
+    margin-top: 120px;
+}
+
+#frame64B{
+    font-size: 60px;
+    float: left;
+    color: #2F070D;
+    margin-left: 30px;
+}
+
+#frame64C{
+    font-size: 60px;
+    float: right;
+    color: #2F070D;
+    margin-right: 30px;
+}
+
+#pentagram{
+    width: 300px;
+    margin-top: 100px;
 }
