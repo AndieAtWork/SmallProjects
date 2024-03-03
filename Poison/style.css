@@ -37,6 +37,16 @@ spam{
     width: 800px;
 }
 
+#frame-border{
+    height: 501px;
+    width: 801px;
+    background-color: transparent;
+    position: absolute;
+    outline: 2px solid white;
+    outline-offset: 1px;
+    z-index: 1000;
+}
+
 @keyframes slideOut {
     0% {
         opacity: 0;
@@ -165,9 +175,11 @@ spam{
 @keyframes textGrowth2 {
     0% {
         font-size: 270px;
+        opacity: 1;
     }
     100% {
         font-size: 500px;
+        opacity: 0;
     }
 }
 
@@ -459,6 +471,167 @@ spam{
     }
     100% {
         font-size: 165px;
+    }
+}
+
+@keyframes right-to-in2{
+    0% {
+        left: 200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes circle1{
+    0% {
+        display: block;
+    }
+    19%{
+        display: block;
+    }
+    20%{
+        display: none !important;
+    }
+}
+
+@keyframes circle2{
+    0% {
+        visibility: visible;
+    }
+    19%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+}
+
+@keyframes circle3{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        left: hidden;
+    }
+}
+
+@keyframes circle4{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        left: hidden;
+    }
+}
+
+@keyframes circle5{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        left: hidden;
+    }
+}
+
+@keyframes ohhh{
+    0% {
+        text-shadow: none;
+        font-size: 65px;
+    }
+    100% {
+        text-shadow: 0px 0px 40px red;
+        font-size: 90px;
+    }
+}
+
+@keyframes ill-be1{
+    0% {
+        font-size: 90px;
+        height: 260px;
+    }
+    100% {
+        font-size: 120px;
+        height: 500px;
+    }
+}
+
+@keyframes ill-be2{
+    0% {
+        margin-left: 0px;
+    }
+    60%{
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1200px;
+    }
+}
+
+@keyframes yours{
+    0% {
+        margin-left: 800px;
+    }
+    100% {
+        margin-left: -6000px;
+    }
+}
+
+@keyframes moving-frame1 {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+@keyframes from-your1{
+    0% {
+        margin-left: -100px;
+    }
+    100% {
+        margin-left: 30px;
+    }
+}
+
+@keyframes from-your2{
+    0% {
+        margin-left: 670px;
+    }
+    100% {
+        margin-left: 590px !important;
+    }
+}
+
+@keyframes pentagram {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+  }
+
+@keyframes chains {
+    0% { 
+        opacity: 1;
+    } 90%{
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
+
+@keyframes radius {
+    0% { 
+        height: 200px;
+        width: 200px;
+    }
+    100% { 
+        height: 700px;
+        width: 700px; 
     }
 }
 
@@ -859,6 +1032,7 @@ spam{
     width: 400px;
     height: 230px;
     top: 0;
+    animation: 2.5s chains linear  forwards;
     background: linear-gradient(-30deg, transparent, transparent 50%, #A71113 50%, #A71113 60%, transparent 60%);
 }
 
@@ -867,6 +1041,7 @@ spam{
     width: 1000px;
     height: 300px;
     top: 200px;
+    animation: 2.5s chains linear  forwards;
     background: linear-gradient(10deg, transparent, transparent 0%, #A71113 0%, #A71113 10%, transparent 11%);
 }
 
@@ -876,6 +1051,7 @@ spam{
     height: 500px;
     top: 200px;
     left: 400px;
+    animation: 2.5s chains linear  forwards;
     background: linear-gradient(-50deg, transparent, transparent 55%, #A71113 55%, #A71113 60%, transparent 60%);
 }
 
@@ -888,8 +1064,6 @@ spam{
     background-image: linear-gradient(90deg, #0C0615, #22133B);
 }
 
-.frame16-text2{
-}
 #yeah1{
     font-size: 100px;
 }
@@ -1122,25 +1296,25 @@ spam{
 #frame31-text1{
     position: absolute;
     right: 400px;
-    animation: 0.4s whats-the-worst-part1 linear forwards; */
+    animation: 0.4s whats-the-worst-part1 linear forwards;
 }
 
 #frame31-text2{
     position: absolute;
     right: 200px;
-    animation: 0.4s whats-the-worst-part2 linear forwards; */
+    animation: 0.4s whats-the-worst-part2 linear forwards;
 }
 
 #frame31-text3{
     position: absolute;
     right: 520px;
-    animation: 0.4s whats-the-worst-part3 linear forwards; */
+    animation: 0.4s whats-the-worst-part3 linear forwards;
 }
 
 #frame31-text4{
     position: absolute;
     right: 180px;
-    animation: 0.4s whats-the-worst-part4 linear forwards; */
+    animation: 0.4s whats-the-worst-part4 linear forwards;
 }
 
 #frame32{
@@ -1304,13 +1478,13 @@ spam{
 
 #frame41{
     background-image: linear-gradient(90deg, #820313, #200506);
-    animation: 1s growing-frame linear forwards;
+    animation: 0.2s growing-frame linear forwards;
 }
 
 #frame41-text{
     color: white;
     z-index: 10;
-    animation: 1s growing-frame-text linear forwards;
+    animation: 0.2s growing-frame-text linear forwards;
 }
 
 #frame41-container, #frame41B-container, #frame42-container, #frame43-container{
@@ -1320,12 +1494,12 @@ spam{
 
 #frame42{
     background-image: linear-gradient(180deg, #F0797E, #A7454C);
-    animation: 0.45s growing-frame linear forwards;
+    animation: 0.2s growing-frame linear forwards;
 }
 
 #frame43{
     background-image: linear-gradient(90deg, #820313, #BC1D2F);
-    animation: 0.45s growing-frame linear forwards;
+    animation: 0.2s growing-frame linear forwards;
 }
 
 #frame44{
@@ -1342,7 +1516,7 @@ spam{
     position: absolute;
     top: 130px;
     left: 150px;
-    animation: 1.7s right-to-out4 linear forwards; */
+    animation: 1.7s right-to-out4 linear forwards;
 }
 
 #frame45{
@@ -1429,6 +1603,10 @@ spam{
     font-size: 200px;
 }
 
+#frame49-over{
+    animation: 0.5s right-to-in2 linear forwards;
+}
+
 #frame50{
     background-color: #19090D;
 }
@@ -1445,6 +1623,10 @@ spam{
     margin-bottom: 40px;
 }
 
+#frame50-over{
+    animation: 0.5s right-to-in2 linear forwards;
+}
+
 #frame51, #frame52{
     background-color: #C9132A;
 }
@@ -1452,6 +1634,14 @@ spam{
 #frame51-text, #frame52-text{
     color: #FD8A8F;
     font-size: 150px;
+}
+
+#frame51-over{
+    animation: 0.5s right-to-in2 linear forwards;
+}
+
+#frame52-over{
+    animation: 0.5s right-to-in2 linear forwards;
 }
 
 #frame53{
@@ -1475,10 +1665,13 @@ spam{
 
 #frame53-overA{
     margin-top: -80px;
+    animation: 0.5s right-to-in2 linear forwards;
 }
 
 #frame53-overB{
+    left: 200px;
     margin-top: 40px;
+    animation: 0.5s right-to-in2 linear forwards;
 }
 
 #frame54{
@@ -1544,4 +1737,161 @@ spam{
 #frame57-text{
     font-size: 65px;
     color: #D80124;
+    animation: 3s ohhh linear forwards;
+}
+
+.frame57-dots{
+    border: 5px dotted #D80124;
+    border-radius: 50%;
+}
+
+#frame57A{
+    height: 200px;
+    width: 200px;
+    animation: 1s radius infinite;
+}
+
+#frame58, #frame60{
+    background-color: black;
+}
+
+.moving-frame{
+    top: 0;
+    position: absolute;
+}
+
+#frame58-overA{
+    animation: 1.4s moving-frame1 linear forwards;
+}
+
+#frame58-overB{
+    animation: 1.4s moving-frame1 linear forwards;
+}
+
+#frame58-text-block, #frame60-text-block, #frame61-text-block{
+    font-size: 90px;
+    width: 2000px;
+    background-color: #CA2B3F;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+#frame58-text-block, #frame60-text-block{
+    padding-left: 300px;
+}
+
+#frame58-dots, #frame60-dots, #frame61-dots{
+    display: block;
+    border-bottom: 20px dotted #CA2B3F;
+    height: 300px;
+    width: 2000px;
+    margin-top: 90px;
+    border-top: 20px dotted #CA2B3F;
+}
+
+#frame59{
+    background-color: #F7888A;
+}
+
+#frame59-overA{
+    font-size: 150px;
+    padding-bottom: 25px;
+    color: #BA1E2F;
+}
+
+#frame59-dots{
+    display: block;
+    border-bottom: 20px dotted #CA2B3F;
+    height: 300px;
+    width: 2000px;
+    margin-top: 90px;
+    border-top: 20px dotted #CA2B3F;
+}
+
+#frame60-overA{
+    animation: 1.2s moving-frame1 linear forwards;
+}
+
+#frame60-overB{
+    animation: 1.2s moving-frame1 linear forwards;
+}
+
+#frame61{
+    background-color: #F7888A;
+}
+
+#frame61-text-block{
+    animation: 0.4s ill-be1 linear forwards;
+    animation-delay: 0.1s;
+}
+
+#frame61-overA{
+    animation: 0.4s ill-be2 linear forwards;
+    animation-delay: 0.1s;
+}
+
+#frame62{
+    background-color: #CA2B3F;
+    z-index: -100;
+}
+
+#frame62-over{
+    color: white;
+    font-size: 170px;
+    margin-top: 110px;
+    margin-left: 800px;
+    animation: 10s yours linear forwards;
+}
+
+#frame63{
+    position: absolute;
+    font-size: 60px;
+    color: #952033;
+    background-image: linear-gradient(180deg, #010103, #1B0F30);
+}
+
+#frame63-text{
+    margin-top: 140px;
+}
+
+#frame63B{
+    margin-left: 15px;
+}
+
+#frame64{
+    background-image: linear-gradient(180deg, #BC1D2F, #BA5D60);
+}
+    
+#frame64A, #frame64D{
+    font-size: 120px;
+    color: #2F070D;
+}
+
+#frame64D{
+}
+
+#frame64B{
+    font-size: 60px;
+    float: left;
+    color: #2F070D;
+    margin-left: 30px;
+    animation: 0.5s from-your1 linear forwards;
+    width: 100px;
+}
+
+#frame64C{
+    font-size: 60px;
+    float: right;
+    color: #2F070D;
+    animation: 0.5s from-your2 linear forwards;
+    width: 100px;
+    display: block;
+    position:absolute;
+    margin-left: 590px;
+}
+
+#pentagram{
+    width: 300px;
+    margin-top: 100px;
+    animation: 5s pentagram linear infinite;
 }
