@@ -40,3 +40,11 @@ Done as a challenge since there is no bootstrap (or similar frameworks) used, ju
 # Random Examples
 ![](https://andieatwork.files.wordpress.com/2024/01/picture.png)  
 CSS + fontawesome
+
+# Poison 
+A copy of the original video by Hazbin Hotel done exclusively with js and css (plus a heart, a skull and a pentagram)
+<img src="https://andieatwork.files.wordpress.com/2024/03/play.png" width="600">
+
+![](https://andieatwork.files.wordpress.com/2024/03/gif1.gif)
+
+![](https://andieatwork.files.wordpress.com/2024/03/gif2.gif)
