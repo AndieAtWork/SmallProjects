@@ -38,7 +38,7 @@ Done as a challenge since there is no bootstrap (or similar frameworks) used, ju
 
 
 # Random Examples
-![](https://andieatwork.files.wordpress.com/2024/01/picture.png)  
+![](https://andieatwork.wordpress.com/wp-content/uploads/2024/12/picture-fixed.png) 
 CSS + fontawesome
 
 # Poison 
